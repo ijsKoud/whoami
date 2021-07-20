@@ -1,18 +1,18 @@
-<h1 align="center">Welcome to project-template 👋</h1>
+<h1 align="center">project-template</h1>
 
 > Personal project template by DaanGamesDG
 
 ## Install
 
 ```sh
-yarn install
+yarn/npm install
 ```
 
 ## Usage
 
-- **Yarn run dev** _(starts dev script)_
-- **Yarn run build** _(compiles the code which can be found in the dist folder)_
-- `node .` to run the compiled code
+- **yarn/npm run dev** _(starts dev script)_
+- **yarn/npm run build** _(compiles the code which can be found in the dist folder)_
+- **yarn/npm run start** _(to run the compiled code)_
 
 ## Author
 
