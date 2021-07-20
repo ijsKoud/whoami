@@ -15,6 +15,7 @@
 	},
 	"scripts": {
 		"build": "tsc --build",
-		"dev": "nodemon --exec ts-node src/bot.ts"
+		"dev": "nodemon --exec ts-node src/bot.ts",
+		"start": "node ."
 	}
 }
