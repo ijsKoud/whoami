@@ -12,7 +12,7 @@ yarn/npm install
 
 - **yarn/npm run dev** _(starts dev script)_
 - **yarn/npm run build** _(compiles the code which can be found in the dist folder)_
-- **yarn/npm run start** _(to run the compiled code)_
+- **yarn/npm run start** _(runs the compiled code)_
 
 ## Author
 
