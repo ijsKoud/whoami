@@ -25,6 +25,6 @@ yarn/npm install
 
 ### Lisence
 
-Project is licensed under the [**MIT License**](/LICENSE) ©
+Project is licensed under the © [**MIT License**](/LICENSE)
 
 ---
