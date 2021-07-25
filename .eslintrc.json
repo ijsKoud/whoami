@@ -19,7 +19,7 @@
 		"no-fallthrough": "error",
 		"no-unreachable": "error",
 		"brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
-		"comma-dangle": ["error", "always-multiline"],
+		"comma-dangle": ["error", "only-multiline"],
 		"comma-spacing": "error",
 		"comma-style": "error",
 		"curly": ["error", "multi-line", "consistent"],
