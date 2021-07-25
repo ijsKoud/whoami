@@ -5,14 +5,17 @@
 ## Install
 
 ```sh
-yarn/npm install
+yarn install
 ```
 
 ## Usage
 
-- **yarn/npm run dev** _(starts dev script)_
-- **yarn/npm run build** _(compiles the code which can be found in the dist folder)_
-- **yarn/npm run start** _(runs the compiled code)_
+_You can also use `npm` instead of `yarn`_
+
+- **yarn run dev** _(starts dev script)_
+- **yarn run build** _(compiles the code and saves it in the dist)_
+- **yarn run start** _(runs the compiled code)_
+- **yarn run lint** _(runs eslint to check your files)_
 
 ## Author
 
