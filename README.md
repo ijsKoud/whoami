@@ -27,9 +27,7 @@ _You can also use `npm` instead of `yarn`_
 - Github: [@DaanGamesDG](https://github.com/DaanGamesDG)
 
 ## Donate
-This willd always be open source project, even if I don't receive donations. With that being said, We know that there are still people who would like to show their appreciation in the form of a donation, Thanks in advance! I Appreciate it a lot :D
-
-- PayPal: [@DaanGamesDG](https://paypal.me/daangamesdg)
+This will always be open source project, even if I don't receive donations. But there are still people out there that want to donate, so if you do here is the link [@PayPal](https://paypal.me/daangamesdg). Thanks in advance! I really appriciate it <3
 
 ## Lisence
 
