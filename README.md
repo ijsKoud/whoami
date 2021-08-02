@@ -26,7 +26,12 @@ _You can also use `npm` instead of `yarn`_
 - Twitter: [@DaanGamesDG](https://twitter.com/DaanGamesDG)
 - Github: [@DaanGamesDG](https://github.com/DaanGamesDG)
 
-### Lisence
+## Donate
+This willd always be open source project, even if I don't receive donations. With that being said, We know that there are still people who would like to show their appreciation in the form of a donation, Thanks in advance! I Appreciate it a lot :D
+
+- PayPal: [@DaanGamesDG](https://paypal.me/daangamesdg)
+
+## Lisence
 
 Project is licensed under the © [**MIT License**](/LICENSE)
 
