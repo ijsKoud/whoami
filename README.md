@@ -1,6 +1,6 @@
 <h1 align="center">project-template</h1>
 
-> Personal project template by DaanGamesDG
+Personal project template by DaanGamesDG
 
 ## Install
 
