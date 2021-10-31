@@ -6,7 +6,7 @@
 	"author": "DaanGamesDG <daan@daangamesdg.wtf>",
 	"license": "MIT",
 	"private": false,
-	"dependencies": {
+	"devDependencies": {
 		"@types/node": "^16.11.6",
 		"@typescript-eslint/eslint-plugin": "^5.2.0",
 		"@typescript-eslint/parser": "^5.2.0",
