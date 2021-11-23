@@ -1,34 +1,27 @@
-<h1 align="center">project-template</h1>
+<h1 align="left"><strong>project-template</strong></h1>
 
-Personal project template by DaanGamesDG
+Project template made by DaanGamesDG
+
+## Information
+
+**Information here**
 
 ## Install
 
-```sh
-yarn install
-```
-
-## Usage
-
-_You can also use `npm` instead of `yarn`_
-
-- **yarn run dev** _(starts dev script)_
-- **yarn run build** _(compiles the code and saves it in the dist)_
-- **yarn run start** _(runs the compiled code)_
-- **yarn run lint** _(runs eslint to check your files)_
+**Installation guide here**
 
 ## Author
 
 👤 **DaanGamesDG**
 
-- Website: https://daangamesdg.xyz/
-- Email: <daan@daangamesdg.xyz>
-- Twitter: [@DaanGamesDG](https://twitter.com/DaanGamesDG)
-- Github: [@DaanGamesDG](https://github.com/DaanGamesDG)
+-   Website: https://daangamesdg.xyz/
+-   Email: <daan@daangamesdg.xyz>
+-   Twitter: [@DaanGamesDG](https://twitter.com/DaanGamesDG)
+-   Github: [@DaanGamesDG](https://github.com/DaanGamesDG)
 
 ## Donate
 
-This will always be open source project, even if I don"t receive donations. But there are still people out there that want to donate, so if you do here is the link [PayPal](https://paypal.me/daangamesdg) or [Ko-Fi](https://daangamesdg.xyz/kofi). Thanks in advance! I really appriciate it <3
+This will always be open source project, even if I don't receive donations. But there are still people out there that want to donate, so if you do here is the link [PayPal](https://paypal.me/daangamesdg) or to [Ko-Fi](https://daangamesdg.xyz/kofi). Thanks in advance! I really appriciate it <3
 
 ## Lisence
 
