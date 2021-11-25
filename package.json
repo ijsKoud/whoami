@@ -5,7 +5,6 @@
 	"main": "dist/index.js",
 	"author": "DaanGamesDG <daan@daangamesdg.xyz>",
 	"license": "MIT",
-	"private": false,
 	"devDependencies": {
 		"@sapphire/eslint-config": "^4.0.5",
 		"@sapphire/prettier-config": "^1.2.4",
@@ -22,5 +21,6 @@
 		"dev": "cross-env NODE_ENV=development nodemon --exec ts-node src/index.ts",
 		"start": "cross-env NODE_ENV=production node .",
 		"lint": "eslint src"
-	}
+	},
+	"packageManager": "yarn@3.1.0"
 }
