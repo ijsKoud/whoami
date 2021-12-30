@@ -1,6 +1,22 @@
-<h1 align="left"><strong>project-template</strong></h1>
+<div align="center">
+    <img src="https://daangamesdg.xyz/assets/svg/logo.svg" width="100px" />
+    <h1>bot-template</h1>
+  
+  <p>Just like an uncoloured drawing.</p>
+  
+  <p align="center">
+    <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg" />
+    <a href="/LICENSE" target="_blank">
+      <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    </a>
+  </p>
 
-Project template made by DaanGamesDG
+  <a href="https://daangamesdg.xyz/discord" target="_blank">
+    <img src="https://daangamesdg.xyz/discord/banner" />
+  </a>
+</div>
+
+---
 
 ## Information
 
@@ -8,7 +24,7 @@ Project template made by DaanGamesDG
 
 ## Install
 
-**Installation guide here**
+This project is WIP, please come back later for a guide on how to host this bot yourself.
 
 ## Author
 
