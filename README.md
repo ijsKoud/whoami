@@ -1,6 +1,6 @@
 <div align="center">
     <img src="https://daangamesdg.xyz/assets/svg/logo.svg" width="100px" />
-    <h1>bot-template</h1>
+    <h1>project-template</h1>
   
   <p>Just like an uncoloured drawing.</p>
   
