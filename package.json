@@ -13,7 +13,7 @@
 		"@sapphire/ts-config": "^3.1.7",
 		"@types/node": "^16.11.20",
 		"cross-env": "^7.0.3",
-		"eslint": "^8.7.0",
+		"eslint": "8.6.0",
 		"husky": "^7.0.4",
 		"lint-staged": "^12.1.7",
 		"nodemon": "^2.0.15",
