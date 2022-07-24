@@ -12,8 +12,8 @@
 		"@sapphire/prettier-config": "^1.4.3",
 		"@sapphire/ts-config": "^3.3.4",
 		"@types/node": "^16.11.45",
-		"@typescript-eslint/eslint-plugin": "^5.30.6",
-		"@typescript-eslint/parser": "^5.30.6",
+		"@typescript-eslint/eslint-plugin": "^5.30.7",
+		"@typescript-eslint/parser": "^5.30.7",
 		"cross-env": "^7.0.3",
 		"eslint": "^8.20.0",
 		"eslint-config-prettier": "^8.5.0",
@@ -31,5 +31,5 @@
 		"lint": "eslint src",
 		"prepare": "husky install"
 	},
-	"packageManager": "yarn@3.2.1"
+	"packageManager": "yarn@3.2.2"
 }
