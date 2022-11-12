@@ -1,9 +1,9 @@
 {
 	"name": "project-template",
 	"version": "1.0.0",
-	"description": "Personal project template by DaanGamesDG",
+	"description": "Personal project template by ijsKoud",
 	"main": "dist/index.js",
-	"author": "DaanGamesDG <daan@daangamesdg.xyz>",
+	"author": "ijsKoud <github@ijsKoud.dev>",
 	"license": "MIT",
 	"devDependencies": {
 		"@commitlint/cli": "^17.2.0",
@@ -14,7 +14,6 @@
 		"@types/node": "^18.11.9",
 		"@typescript-eslint/eslint-plugin": "^5.42.1",
 		"@typescript-eslint/parser": "^5.42.1",
-		"cross-env": "^7.0.3",
 		"eslint": "^8.27.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-prettier": "^4.2.1",
@@ -25,11 +24,12 @@
 	},
 	"scripts": {
 		"build": "tsc --build",
-		"start:dev": "npm run build && npm run start",
-		"dev": "cross-env NODE_ENV=development nodemon --exec ts-node src/index.ts",
-		"start": "cross-env NODE_ENV=production node .",
+		"start": "node .",
+		"start:dev": "yarn dev:watch && yarn dev:start",
+		"dev:watch": "tsc -w",
+		"dev:start": "nodemon",
 		"lint": "eslint src",
-		"prepare": "husky install"
+		"postinstall": "is-ci || husky install"
 	},
 	"packageManager": "yarn@3.2.4"
 }
