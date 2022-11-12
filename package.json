@@ -3,8 +3,10 @@
 	"version": "1.0.0",
 	"description": "Personal project template by ijsKoud",
 	"main": "dist/index.js",
+	"type": "module",
 	"author": "ijsKoud <github@ijsKoud.dev>",
 	"license": "MIT",
+	"dependencies": {},
 	"devDependencies": {
 		"@commitlint/cli": "^17.2.0",
 		"@commitlint/config-angular": "^17.2.0",
