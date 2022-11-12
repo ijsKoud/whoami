@@ -1,14 +1,14 @@
 ## Contributing
 
-**The issue page is only for bug reports. For questions, suggestions or support, join our [Discord server](https://stereo-bot.tk/discord).**
+**The issue page is only for bug reports. For questions, suggestions or support, join our [Discord server](https://ijskoud.dev/discord).**
 
 When you open an issue for bug reports we expect you to provide useful information such as:
 
-- What went is the bug you found?
-- How many times did you encounter this problem?
-- How do we reproduce this problem?
-- Is there a specific client that gives the problem?
-- Is there anything unusual in the console? (Please provide a screenshot)
+-   What went is the bug you found?
+-   How many times did you encounter this problem?
+-   How do we reproduce this problem?
+-   Is there a specific client that gives the problem?
+-   Is there anything unusual in the console? (Please provide a screenshot)
 
 We do **not** accept issues with text among the lines: "Oh, this, this and that did not work. I try it everytime, even reloaded the page and its still not working"!
 
