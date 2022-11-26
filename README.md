@@ -1,8 +1,8 @@
 <div align="center">
-    <img src="https://ijskoud.dev/assets/svg/logo.svg" width="100px" />
-    <h1>project-template</h1>
+    <img src="https://raw.githubusercontent.com/snowcrystals/.github/main/logo.png" width="100px" />
+    <h1>@ijskoud/template</h1>
   
-  <p>Just like an uncoloured drawing.</p>
+  <p>A template used for every single repository in this organization ✏️</p>
   
   <p align="center">
     <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg" />
@@ -20,11 +20,13 @@
 
 ## Information
 
-This is a template you can use for future projects, it has all the files and dependencies you need to start get started.
+Just a template, like an uncolored drawing. That's all. ✏️
 
 ## Install
 
-No installation guide available at the moment.
+To use this template, you will need the following: `yarn` and `node >= 16.18.1`.
+
+
 
 ## Author
 
@@ -32,12 +34,12 @@ No installation guide available at the moment.
 
 -   Website: https://ijskoud.dev/
 -   Email: <hi@ijskoud.dev>
--   Twitter: [@ijsKoud](https://twitter.com/ijs_Koud)
+-   Twitter: [@ijsKoud](https://ijskoud.dev/twitter)
 -   Github: [@ijsKoud](https://github.com/ijsKoud)
 
 ## Donate
 
-This will always be open source project, even if I don't receive donations. But there are still people out there that want to donate, so if you do here is the link [PayPal](https://paypal.me/daangamesdg) or to [Ko-Fi](https://ijskoud.dev/kofi). Thanks in advance! I really appriciate it <3
+This will always be open source project, even if I don't receive donations. But there are still people out there that want to donate, so if you do here is the link [PayPal](https://ijskoud.dev/paypal) or to [Ko-Fi](https://ijskoud.dev/kofi). Thanks in advance! I really appriciate it <3
 
 ## License
 

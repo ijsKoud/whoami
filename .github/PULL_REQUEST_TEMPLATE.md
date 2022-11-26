@@ -9,7 +9,7 @@ Examples:
 
 <!--
 ### Linked Issues:
-Mention an issue here (example: closes #1)
+Mention an issue here (example: #1)
 -->
 
 ---
