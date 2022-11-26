@@ -1,8 +1,8 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/snowcrystals/.github/main/logo.png" width="100px" />
-    <h1>@ijskoud/template</h1>
+    <img src="https://ijskoud.dev/assets/svg/logo.svg" width="100px" />
+    <h1>project-template</h1>
   
-  <p>A template used for every single repository in this organization ✏️</p>
+  <p>A quick and easy to use template for TypeScript like projects ✏️</p>
   
   <p align="center">
     <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg" />
@@ -24,7 +24,7 @@ Just a template, like an uncolored drawing. That's all. ✏️
 
 ## Install
 
-To use this template, you will need the following: `yarn` and `node >= 16.18.1`.
+To use this template, you will need the following: `yarn` and `node >= 18.12.1`.
 
 
 
