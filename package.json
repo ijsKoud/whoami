@@ -1,19 +1,22 @@
 {
-	"name": "template",
+	"name": "monorepo",
 	"version": "1.0.0",
-	"description": "A quick and easy to use template for TypeScript like projects ✏️",
+	"description": "Monorepo template for big projects 🏗️",
 	"author": "ijsKoud <github@ijskoud.dev>",
 	"license": "MIT",
-	"type": "module",
-	"main": "dist/index.js",
-	"homepage": "https://github.com/ijsKoud/project-template",
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"homepage": "https://github.com/ijsKoud/monorepo",
 	"scripts": {
-		"build": "tsc --build",
-		"build:watch": "tsc --watch",
-		"start:dev": "nodemon ./dist",
-		"start": "node ./dist",
-		"lint": "eslint src",
+		"build": "turbo run build",
+		"start:dev": "turbo run dev --parallel",
+		"lint": "turbo run lint",
 		"postinstall": "is-ci || husky install"
+	},
+	"resolutions": {
+		"@typescript-eslint/eslint-plugin": "^5.46.1"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.3.0",
@@ -25,6 +28,7 @@
 		"@typescript-eslint/eslint-plugin": "^5.46.1",
 		"@typescript-eslint/parser": "^5.46.1",
 		"eslint": "^8.30.0",
+		"eslint-config-next": "^13.1.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-prettier": "^4.2.1",
 		"husky": "^8.0.2",
@@ -32,6 +36,7 @@
 		"lint-staged": "^13.1.0",
 		"nodemon": "^2.0.20",
 		"prettier": "^2.8.1",
+		"turbo": "^1.6.3",
 		"typescript": "4.9.4"
 	},
 	"engines": {
