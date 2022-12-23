@@ -1,8 +1,8 @@
 <div align="center">
     <img src="https://ijskoud.dev/assets/svg/logo.svg" width="100px" />
-    <h1>project-template</h1>
+    <h1>monorepo</h1>
   
-  <p>A quick and easy to use template for TypeScript like projects ✏️</p>
+  <p>Monorepo template for big projects 🏗️</p>
   
   <p align="center">
     <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg" />
@@ -20,7 +20,7 @@
 
 ## Information
 
-Just a template, like an uncolored drawing. That's all. ✏️
+Monorepo template for big projects 🏗️
 
 ## Install
 
