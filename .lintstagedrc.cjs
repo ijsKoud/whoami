@@ -1,3 +1,3 @@
 module.exports = {
-	"**/*.{js,jsx,ts,tsx}": () => ["yarn run lint", "prettier --write"]
+	"**/*.{js,jsx,ts,tsx}": (filenames) => ["yarn run lint", `prettier --write ${filenames.join(" ")}`]
 };
