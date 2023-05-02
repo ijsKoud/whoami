@@ -6,5 +6,6 @@
 		"module": "ESNext",
 		"moduleResolution": "NodeNext"
 	},
-	"exclude": ["node_modules"]
+	"exclude": ["node_modules"],
+	"include": ["./apps/**/*.ts", "./apps/**/*.tsx", "./packages/**/*.ts", "./packages/**/*.tsx"]
 }

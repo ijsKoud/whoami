@@ -1,5 +1,6 @@
 {
 	"name": "@monorepo/ui",
+	"type": "module",
 	"version": "0.0.0",
 	"main": "./src/index.tsx",
 	"types": "./src/index.tsx",
@@ -13,7 +14,6 @@
 		"eslint": "^8.38.0",
 		"eslint-config-custom": "*",
 		"react": "^18.2.0",
-		"tsconfig": "*",
-		"typescript": "^4.9.5"
+		"typescript": "^5.0.4"
 	}
 }
