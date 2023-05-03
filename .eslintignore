@@ -40,3 +40,5 @@ yarn-error.log*
 
 # Config
 tsup.config.ts
+tailwind.config.cjs
+postcss.config.cjs
