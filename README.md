@@ -24,9 +24,7 @@ Monorepo template for big projects 🏗️
 
 ## Install
 
-To use this template, you will need the following: `yarn` and `node >= 18.12.1`.
-
-
+To use this template, you will need the following: `yarn` and `node >= 18.16.0`.
 
 ## Author
 
