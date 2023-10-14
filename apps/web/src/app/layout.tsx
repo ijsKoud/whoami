@@ -25,17 +25,13 @@ const RootLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
 	return (
 		<html suppressHydrationWarning>
 			<head>
-				{/* <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
-				<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
-				<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
-				<link rel="manifest" href="/favicons/site.webmanifest" />
-				<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#343434" />
-				<link rel="shortcut icon" href="/favicons/favicon.ico" />
-				<meta name="apple-mobile-web-app-title" content="PaperPlane" />
-				<meta name="application-name" content="PaperPlane" />
-				<meta name="msapplication-TileColor" content="#da532c" />
-				<meta name="msapplication-config" content="/favicons/browserconfig.xml" />
-				<meta name="theme-color" content="#343434" /> */}
+				<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2" />
+				<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2" />
+				<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2" />
+				<link rel="manifest" href="/site.webmanifest?v=2" />
+				<link rel="mask-icon" href="/safari-pinned-tab.svg?v=2" color="#131313" />
+				<link rel="shortcut icon" href="/favicon.ico?v=2" />
+				<meta name="msapplication-TileColor" content="#131313" />
 			</head>
 			<body className="dark:bg-dark bg-white" style={InterFont.style}>
 				<Providers>
