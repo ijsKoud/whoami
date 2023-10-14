@@ -2,7 +2,7 @@ const { fontFamily } = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	darkMode: ["class"],
+	darkMode: "class",
 	theme: {
 		container: {
 			center: true,
@@ -17,6 +17,7 @@ module.exports = {
 				.map((_, key) => ({ [key + 1]: [(key + 1) * 4] }))
 				.reduce((a, b) => ({ ...a, ...b }), {}),
 			colors: {
+				dark: "#131313",
 				border: "hsl(var(--border))",
 				input: "hsl(var(--input))",
 				ring: "hsl(var(--ring))",

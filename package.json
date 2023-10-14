@@ -34,15 +34,16 @@
 		"turbo": "^1.10.15",
 		"typescript": "5.2.2"
 	},
-	"engines": {
-		"node": ">= v18.16.0"
-	},
-	"packageManager": "yarn@3.6.4",
 	"dependencies": {
+		"@radix-ui/react-toast": "^1.1.5",
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.0.0",
 		"lucide-react": "^0.287.0",
 		"tailwind-merge": "^1.14.0",
 		"tailwindcss-animate": "^1.0.7"
-	}
+	},
+	"engines": {
+		"node": ">= v18.16.0"
+	},
+	"packageManager": "yarn@3.6.4"
 }
