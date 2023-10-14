@@ -1,7 +1,7 @@
 import type React from "react";
 import { SlideFade } from "@/components/animations/SlideFade";
 import { Button } from "@whoami/ui/button";
-import AnimatedArrowIcon from "@whoami/ui/AnimatedArrowIcon";
+import AnimatedArrowIcon from "@whoami/ui/icons/AnimatedArrow";
 import Link from "next/link";
 
 const Page: React.FC = () => {
