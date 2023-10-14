@@ -1,28 +1,23 @@
 {
-	"name": "monorepo",
+	"name": "whoami",
 	"version": "1.0.0",
-	"description": "Monorepo template for big projects 🏗️",
+	"description": "My next generation portfolio",
 	"author": "ijsKoud <github@ijskoud.dev>",
 	"license": "MIT",
 	"workspaces": [
 		"apps/*",
 		"packages/*"
 	],
-	"homepage": "https://github.com/ijsKoud/monorepo",
+	"homepage": "https://github.com/ijsKoud/whoami",
 	"scripts": {
 		"build": "turbo run build",
 		"start:dev": "turbo run dev --parallel",
 		"lint": "turbo run lint",
 		"postinstall": "is-ci || husky install"
 	},
-	"resolutions": {
-		"@typescript-eslint/eslint-plugin": "^6.7.4"
-	},
 	"devDependencies": {
-		"@commitlint/cli": "^17.7.2",
-		"@commitlint/config-angular": "^17.7.0",
 		"@sapphire/eslint-config": "^5.0.2",
-		"@sapphire/ts-config": "^4.0.1",
+		"@sapphire/ts-config": "^5.0.0",
 		"@snowcrystals/prettier-config": "^1.0.0",
 		"@types/node": "^18.18.4",
 		"@typescript-eslint/eslint-plugin": "^6.7.4",
