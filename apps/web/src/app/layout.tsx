@@ -4,8 +4,22 @@ import type React from "react";
 import Providers from "./providers";
 import { Inter } from "next/font/google";
 import NavigationMenu from "@/components/NavigationMenu";
+import { Metadata } from "next";
 
 const InterFont = Inter({ display: "swap", subsets: ["latin"], weight: ["300", "400", "500", "600", "700", "800", "900"] });
+
+export const metadata: Metadata = {
+	themeColor: "#50a0d4",
+	metadataBase: new URL("https://ijskoud.dev"),
+	title: { template: "Daan Klarenbeek - %s", default: "Daan Klarenbeek - Full-stack developer building apps for the internet" },
+	description: "Full-stack developer building apps for the internet",
+	twitter: { card: "summary" },
+	openGraph: {
+		title: "Daan Klarenbeek",
+		description: "Full-stack developer building apps for the internet",
+		images: [{ url: "/profile.png", alt: "Profile picture", type: "image/png" }]
+	}
+};
 
 const RootLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
 	return (

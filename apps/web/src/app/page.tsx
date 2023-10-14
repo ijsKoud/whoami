@@ -1,13 +1,8 @@
 import type React from "react";
-import type { Metadata } from "next";
 import { SlideFade } from "@/components/animations/SlideFade";
 import { Button } from "@whoami/ui/button";
 import AnimatedArrowIcon from "@whoami/ui/AnimatedArrowIcon";
 import Link from "next/link";
-
-export const metadata: Metadata = {
-	title: "Daan Klarenbeek - Full-stack developer building apps for the internet"
-};
 
 const Page: React.FC = () => {
 	return (
