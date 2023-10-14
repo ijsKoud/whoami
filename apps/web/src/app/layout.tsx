@@ -3,6 +3,7 @@ import "../styles/globals.css";
 import type React from "react";
 import Providers from "./providers";
 import { Inter } from "next/font/google";
+import NavigationMenu from "@/components/NavigationMenu";
 
 const InterFont = Inter({ display: "swap", subsets: ["latin"], weight: ["300", "400", "500", "600", "700", "800", "900"] });
 
@@ -23,7 +24,10 @@ const RootLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
 				<meta name="theme-color" content="#343434" /> */}
 			</head>
 			<body className="dark:bg-dark bg-white" style={InterFont.style}>
-				<Providers>{children}</Providers>
+				<Providers>
+					<NavigationMenu />
+					{children}
+				</Providers>
 			</body>
 		</html>
 	);
