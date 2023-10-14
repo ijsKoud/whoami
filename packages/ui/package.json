@@ -6,6 +6,10 @@
 	"scripts": {
 		"lint": "TIMING=1 eslint"
 	},
+	"dependencies": {
+		"@radix-ui/react-slot": "^1.0.2",
+		"@whoami/utils": "*"
+	},
 	"devDependencies": {
 		"@types/react": "^18.2.25",
 		"@types/react-dom": "^18.2.11",
