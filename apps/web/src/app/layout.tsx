@@ -26,7 +26,7 @@ const RootLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
 			<body className="dark:bg-dark bg-white" style={InterFont.style}>
 				<Providers>
 					<NavigationMenu />
-					{children}
+					<div className="max-w-5xl m-auto px-4 pt-2">{children}</div>
 				</Providers>
 			</body>
 		</html>
