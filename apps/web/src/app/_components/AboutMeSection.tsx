@@ -23,11 +23,11 @@ const AboutMeSection: React.FC = () => {
 							className="-translate-y-10 w-64 h-[332px] max-lg:translate-y-0 overflow-hidden"
 						/>
 					</SlideFade>
-					<div className="flex flex-wrap items-center gap-2">
+					<SlideFade useInView className="flex flex-wrap items-center gap-2">
 						{EXPERIENCE_ICONS.map((icon) => (
 							<img className="h-12" src={`https://skillicons.dev/icons?i=${icon}`} alt={`Icon: ${icon}`} key={`Icon: ${icon}`} />
 						))}
-					</div>
+					</SlideFade>
 				</div>
 			</div>
 		</section>

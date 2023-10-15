@@ -35,7 +35,7 @@ const IntroductionSection: React.FC = () => {
 						<li key={key}>
 							<SlideFade delay={0.3 + key * 0.1} className="flex items-center gap-4">
 								<img className="h-9 max-lg:h-7 max-md:h-5" alt={points.emoji} src={parse(points.emoji)[0].url} />
-								<Markdown className="text-9 dark:text-zinc-400 text-zinc-500 max-lg:text-7 max-sm:text-5 max-[400px]:text-3 leading-[95%]">
+								<Markdown className="text-9 dark:text-zinc-400 text-zinc-500 max-lg:text-7 max-sm:text-5 max-[400px]:text-4 leading-[95%]">
 									{points.text}
 								</Markdown>
 							</SlideFade>
