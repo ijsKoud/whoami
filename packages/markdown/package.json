@@ -1,0 +1,23 @@
+{
+	"name": "@whoami/markdown",
+	"type": "module",
+	"version": "0.0.0",
+	"license": "MIT",
+	"main": "src/index.tsx",
+	"types": "src/index.tsx",
+	"scripts": {
+		"lint": "TIMING=1 eslint"
+	},
+	"dependencies": {
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-markdown": "9.0.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.2.28",
+		"@types/react-dom": "^18.2.13",
+		"eslint": "^8.51.0",
+		"react": "^18.2.0",
+		"typescript": "^5.2.2"
+	}
+}
