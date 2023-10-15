@@ -5,6 +5,7 @@ import Providers from "./providers";
 import { Inter } from "next/font/google";
 import NavigationMenu from "@/components/NavigationMenu";
 import { Metadata } from "next";
+import Footer from "@/components/Footer";
 
 const InterFont = Inter({ display: "swap", subsets: ["latin"], weight: ["300", "400", "500", "600", "700", "800", "900"] });
 
@@ -37,6 +38,7 @@ const RootLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
 				<Providers>
 					<NavigationMenu />
 					<div className="max-w-5xl m-auto px-4 pt-2">{children}</div>
+					<Footer />
 				</Providers>
 			</body>
 		</html>
