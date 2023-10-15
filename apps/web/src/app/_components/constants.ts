@@ -1,3 +1,6 @@
+// CHANGE THE 2006,2,12 to your own date (format: YYYY, MM, DD)
+const AGE = new Date(Date.now() - new Date(2006, 2, 12).getTime()).getUTCFullYear() - 1970;
+
 export const LANDING_TEXT = {
 	title: "Hey my name is",
 	name: "Daan Klarenbeek",
@@ -16,10 +19,10 @@ export const LANDING_BULLET_POINTS = [
 ] as const;
 
 export const ABOUT_ME_TEXT =
-	"Hey, I am Daan. A 17 year-old full-stack developer & anime lover from the Netherlands. Who knew that writing half-working chat bots by following a simple tutorial in 2020 would bring me here. I guess that that one tutorial decided my whole life.\n\nAnyway, fast-forward to today; I love programming and work on a series of projects, [maybe yours too](/#contact). I love open-source, hence why this website and many other projects are open to the public!\n\nI am still young which means plenty of time to grow and improve, below you can find a list of languages, tools and software which I use at a daily basis." as const;
+	`I'm a **${AGE} year-old** full stack developer who's been immersed in the world of coding since 2020. Being mostly self-taught, my passion for open-source projects runs deep. I'm always enthusiastic about learning new technologies and techniques, constantly seeking to broaden my skill set.\n\n📺 In my free time you might catch me game once in a while but more often I watch tech related content.\n\n🎓 currently studying at **AUAS** (Amsterdam University of Applied Sciences) to become a **software engineer**.` as const;
 
 // FOR A LIST OF VALID ICONS: https://github.com/tandpfun/skill-icons#icons-list
-export const EXPERIENCE_ICONS = ["js", "ts", "react", "nextjs", "prisma", "docker", "github", "linux", "vercel"] as const;
+export const EXPERIENCE_ICONS = ["js", "ts", "react", "nextjs", "tailwind", "prisma", "docker", "github", "linux", "vercel"] as const;
 
 export const CONTACT_FORM_FIELDS = [
 	{

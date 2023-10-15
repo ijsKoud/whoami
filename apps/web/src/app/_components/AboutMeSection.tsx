@@ -10,11 +10,11 @@ const AboutMeSection: React.FC = () => {
 				<div className="flex flex-col gap-y-4 relative">
 					<SlideFade useInView>
 						<h1 id="about" className="text-16 font-semibold leading-[80%] w-fit max-lg:text-14 max-sm:text-12 max-[400px]:text-10">
-							About Me
+							Who am I?
 						</h1>
 					</SlideFade>
 					<SlideFade useInView delay={0.2} className="flex justify-between max-lg:flex-col max-lg:mb-8">
-						<div className="text-5 w-3/5 flex flex-col gap-y-4 max-lg:w-full">
+						<div className="text-5 w-3/5 flex flex-col gap-y-4 max-lg:w-full text-muted-foreground">
 							<Markdown>{ABOUT_ME_TEXT}</Markdown>
 						</div>
 						<img
