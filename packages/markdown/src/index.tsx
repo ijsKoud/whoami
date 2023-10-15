@@ -13,7 +13,7 @@ const Markdown: React.FC<Props & Options> = ({ children, ...props }) => {
 				strong: ({ children }) => <span className="dark:text-white text-black">{children}</span>,
 				code: ({ children }) => <span className="text-blue-400">{children}</span>,
 				a: ({ children, node, ...props }) => (
-					<a {...props} className="text-primary hocus:text-blue-400 transition-colors">
+					<a className="text-blue-400 hocus:text-blue-400/80 transition-colors" {...props}>
 						{children}
 					</a>
 				),
