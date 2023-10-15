@@ -5,7 +5,7 @@ import { ABOUT_ME_TEXT, EXPERIENCE_ICONS } from "./constants";
 
 const AboutMeSection: React.FC = () => {
 	return (
-		<section className="h-[calc(80vh)] flex flex-col items-center justify-center">
+		<section className="flex flex-col items-center justify-center">
 			<div>
 				<div className="flex flex-col gap-y-4 relative">
 					<SlideFade useInView>
