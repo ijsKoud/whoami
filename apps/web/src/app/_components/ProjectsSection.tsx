@@ -3,6 +3,7 @@ import { PROJECTS_LIST } from "./constants";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@whoami/ui/button";
+import { SlideFade } from "@/components/animations/SlideFade";
 
 const ProjectsSection: React.FC = () => {
 	return (
@@ -12,7 +13,7 @@ const ProjectsSection: React.FC = () => {
 			</h1>
 			<div className="grid place-content-center gap-y-12 sm:grid-cols-2 sm:gap-x-3 sm:gap-y-8">
 				{PROJECTS_LIST.map((project, key) => (
-					<div key={key} className="group/card">
+					<SlideFade useInView key={key} className="group/card">
 						<Image
 							className="rounded-lg group-hover/card:scale-[.99] group-hover/card:opacity-80 transition-all duration-500"
 							src={project.image}
@@ -36,7 +37,7 @@ const ProjectsSection: React.FC = () => {
 							</div>
 							<p className="text-muted-foreground">{project.description}</p>
 						</div>
-					</div>
+					</SlideFade>
 				))}
 			</div>
 		</section>
