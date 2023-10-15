@@ -10,6 +10,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@emailjs/browser": "^3.11.0",
 		"@uidotdev/usehooks": "^2.4.0",
 		"@whoami/markdown": "*",
 		"@whoami/ui": "*",
