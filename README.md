@@ -2,7 +2,7 @@
     <img src="https://ijskoud.dev/assets/svg/logo.svg" width="100px" />
     <h1>whoami</h1>
   
-  <p>My next generation portfolio built with NextJS, TRPC, NextAuth and Prisma.</p>
+  <p>My next generation portfolio built with NextJS, Kinde and Prisma.</p>
   
   <p align="center">
     <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg" />
