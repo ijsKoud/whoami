@@ -5,9 +5,10 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
-		"build": "next build",
+		"build": "prisma generate && yarn run sitemap && next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"sitemap": "next-sitemap --config next-sitemap.config.cjs"
 	},
 	"dependencies": {
 		"@emailjs/browser": "^3.11.0",
@@ -20,6 +21,7 @@
 		"date-fns": "^2.30.0",
 		"framer-motion": "10.16.4",
 		"next": "13.5.4",
+		"next-sitemap": "^4.2.3",
 		"next-themes": "^0.2.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
