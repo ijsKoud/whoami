@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://ijskoud.dev/assets/svg/logo.svg" width="100px" />
+    <img src="http://cdn.ijskoud.dev/files/tRt86x36uiuC.png" width="100%" />
     <h1>whoami</h1>
   
   <p>✨ My next generation portfolio built with NextJS, Kinde and Prisma.</p>
@@ -20,11 +20,12 @@
 
 ## Information
 
-Monorepo template for big projects 🏗️
+✨ My next generation portfolio built with NextJS, Kinde and Prisma.
 
 ## Install
 
-To use this template, you will need the following: `yarn` and `node >= 18.16.0`.
+Want to create your own version of this website? Make sure to [fork it](https://github.com/ijskoud/whoami/fork) first and edit all the contents in [constants](/apps/web/src/app/_components/constants.tsx).
+After that `yarn install` to install all the dependencies, `yarn start:dev` to spin-up the dev version and `yarn build` to build the application. You can use `yarn workspace web run start` to start the application or ship it to [Vercel](https://vercel.com/snowcrystals?utm_source=snowcrystals&utm_campaign=oss). Make sure to check the [.env.example](/apps/web/.env.example) file for the required environment variables.
 
 ## Author
 
