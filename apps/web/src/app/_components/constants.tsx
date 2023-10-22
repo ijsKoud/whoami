@@ -40,7 +40,7 @@ export const PROJECTS_LIST: {
 	}[];
 }[] = [
 	{
-		image: "http://cdn.ijskoud.dev/files/MdnQoXVcaF2I.png",
+		image: "https://cdn.ijskoud.dev/files/MdnQoXVcaF2I.png",
 		name: "PaperPlane",
 		description: "An open-source customisable solution to storing files in the cloud. ✈️",
 		urls: [
@@ -52,7 +52,7 @@ export const PROJECTS_LIST: {
 		]
 	},
 	{
-		image: "http://cdn.ijskoud.dev/files/Gx77juph12Jw.png",
+		image: "https://cdn.ijskoud.dev/files/Gx77juph12Jw.png",
 		name: "SCR Creator Hub",
 		description: "Provider of stock footage and images for Stepford County Railway content creators.",
 		urls: [
@@ -64,7 +64,7 @@ export const PROJECTS_LIST: {
 		]
 	},
 	{
-		image: "http://cdn.ijskoud.dev/files/tRt86x36uiuC.png",
+		image: "https://cdn.ijskoud.dev/files/tRt86x36uiuC.png",
 		name: "whoami",
 		description: "My next generation portfolio built with NextJS, TRPC, NextAuth and Prisma.",
 		urls: [
@@ -75,6 +75,23 @@ export const PROJECTS_LIST: {
 			},
 			{
 				url: "https://ijskoud.dev/",
+				icon: <ArrowUpRightIcon />,
+				alt: "Website"
+			}
+		]
+	},
+	{
+		image: "https://cdn.ijskoud.dev/files/5ekNoqDVX9RB.png",
+		name: "snowcrystals website",
+		description: "Documentation website for Snow Crystals 💻",
+		urls: [
+			{
+				url: "https://snowcrystals.dev/github/website",
+				icon: <GithubIcon />,
+				alt: "GitHub"
+			},
+			{
+				url: "https://snowcrystals.dev/",
 				icon: <ArrowUpRightIcon />,
 				alt: "Website"
 			}
@@ -103,7 +120,7 @@ export const PROJECTS_LIST: {
 				alt: "GitHub"
 			},
 			{
-				url: "http://cdn.ijskoud.dev/r/gitcord-invite",
+				url: "https://cdn.ijskoud.dev/r/gitcord-invite",
 				icon: <BotIcon />,
 				alt: "Discord add bot"
 			}
