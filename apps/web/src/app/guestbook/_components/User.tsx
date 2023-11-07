@@ -4,9 +4,9 @@ import { Button } from "@whoami/ui/button";
 import { LogOutIcon } from "lucide-react";
 import React from "react";
 
-const User: React.FC = () => {
+const User: React.FC = async () => {
 	const session = getKindeServerSession();
-	const user = session.getUser();
+	const user = await session.getUser();
 
 	return (
 		<div className="flex items-center justify-between max-sm:flex-col max-sm:items-start max-sm:gap-y-2">
