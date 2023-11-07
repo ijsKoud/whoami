@@ -15,7 +15,7 @@ export async function POST(request: NextRequest) {
 	}
 
 	try {
-		const user = getUser();
+		const user = await getUser();
 		const json = await request.json();
 		const { message } = schema.parse(json);
 

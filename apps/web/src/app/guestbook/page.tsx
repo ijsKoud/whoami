@@ -12,13 +12,13 @@ export const metadata: Metadata = {
 	title: "Guestbook"
 };
 
-const Page: React.FC = () => {
+const Page: React.FC = async () => {
 	const session = getKindeServerSession();
 
 	return (
 		<div>
 			<h1 className="text-16 font-semibold w-fit max-lg:text-14 max-sm:text-12 max-[400px]:text-10">Guestbook</h1>
-			{session.isAuthenticated() ? <User /> : <LoggedOut />}
+			{(await session.isAuthenticated()) ? <User /> : <LoggedOut />}
 
 			<InputForm disabled={!session.isAuthenticated()} />
 
