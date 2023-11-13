@@ -189,49 +189,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hapi/boom@npm:9.x.x":
-  version: 9.1.4
-  resolution: "@hapi/boom@npm:9.1.4"
-  dependencies:
-    "@hapi/hoek": "npm:9.x.x"
-  checksum: 49bb99443e7bdbbdc87ee8de97cd64351e173b57d7c59061c69972d2de77fb98f2f440c1be42b37e1ac04f57c60fbb79f8fd3e9e5695360add560c37e2d584db
-  languageName: node
-  linkType: hard
-
-"@hapi/bourne@npm:2.x.x":
-  version: 2.1.0
-  resolution: "@hapi/bourne@npm:2.1.0"
-  checksum: 0dddacffeb1874d60dd9309f2d8f7103d971c21c4bfb0cfadb406f1dcc0bc00c0b5eed09fbd45a27fe179b6c9f99015500c2197213914d6f93efa584b9313ffd
-  languageName: node
-  linkType: hard
-
-"@hapi/hoek@npm:9.x.x, @hapi/hoek@npm:^9.0.0, @hapi/hoek@npm:^9.0.4":
-  version: 9.3.0
-  resolution: "@hapi/hoek@npm:9.3.0"
-  checksum: a096063805051fb8bba4c947e293c664b05a32b47e13bc654c0dd43813a1cec993bdd8f29ceb838020299e1d0f89f68dc0d62a603c13c9cc8541963f0beca055
-  languageName: node
-  linkType: hard
-
-"@hapi/topo@npm:^5.0.0":
-  version: 5.1.0
-  resolution: "@hapi/topo@npm:5.1.0"
-  dependencies:
-    "@hapi/hoek": "npm:^9.0.0"
-  checksum: b16b06d9357947149e032bdf10151eb71aea8057c79c4046bf32393cb89d0d0f7ca501c40c0f7534a5ceca078de0700d2257ac855c15e59fe4e00bba2f25c86f
-  languageName: node
-  linkType: hard
-
-"@hapi/wreck@npm:^17.0.0":
-  version: 17.2.0
-  resolution: "@hapi/wreck@npm:17.2.0"
-  dependencies:
-    "@hapi/boom": "npm:9.x.x"
-    "@hapi/bourne": "npm:2.x.x"
-    "@hapi/hoek": "npm:9.x.x"
-  checksum: c8df5eed5c25a8aba64933a83b6e60dcf6ac9e28005630ed9b641fc967a464623c8caed5a0984357a5af8e552f01339d304b283f45d61fecd518ad23e9cb3483
-  languageName: node
-  linkType: hard
-
 "@hookform/resolvers@npm:^3.3.2":
   version: 3.3.2
   resolution: "@hookform/resolvers@npm:3.3.2"
@@ -333,21 +290,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kinde-oss/kinde-auth-nextjs@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "@kinde-oss/kinde-auth-nextjs@npm:2.0.1"
+"@kinde-oss/kinde-auth-nextjs@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "@kinde-oss/kinde-auth-nextjs@npm:2.0.6"
   dependencies:
     "@kinde-oss/kinde-typescript-sdk": "npm:^2.2.3"
     cookie: "npm:^0.5.0"
     crypto-js: "npm:^4.1.1"
     jwt-decode: "npm:^3.1.2"
-    simple-oauth2: "npm:^4.3.0"
     uncrypto: "npm:^0.1.3"
   peerDependencies:
     next: ^12.2.5 || ^13 || ^14
     react: ^18.1.0
     react-dom: ^18.1.0
-  checksum: 7f943882ba7a6de03b6b53ac58592dfb12517892b50501792e824a7bb5fefe8b30af6ec2f53d7f44d28c0c9348196fb905c93b54af9e9f7d94b6850b1f146796
+  checksum: 1c53a86bc2ddc5b46e61ebe1eec527ca167e43136b2f3454476cf9cac7424f4e3b01cc521dd7f9893804b31a957e69cf73c8f4affb1f096fe8790974700ac121
   languageName: node
   linkType: hard
 
@@ -360,10 +316,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/env@npm:14.0.1"
-  checksum: f016beb493a1a958b0a084f0ab0c9dbc94b4e032fcb354f45d50c4e4b2dd5089950424e7ea73a7c81416ae6bf8bd82747f1db3b6d6daf273fef42ab08a110d9a
+"@next/env@npm:14.0.2":
+  version: 14.0.2
+  resolution: "@next/env@npm:14.0.2"
+  checksum: 9fad703ce13b7b7fecf898d3c239f8976f2ec7f3c7c461c06da70898a0221775c48e1a2e2c76740216c4093c2db9bd7adaacd196586cd4283e09eb89de4c1db6
   languageName: node
   linkType: hard
 
@@ -383,65 +339,65 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-darwin-arm64@npm:14.0.1"
+"@next/swc-darwin-arm64@npm:14.0.2":
+  version: 14.0.2
+  resolution: "@next/swc-darwin-arm64@npm:14.0.2"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-darwin-x64@npm:14.0.1"
+"@next/swc-darwin-x64@npm:14.0.2":
+  version: 14.0.2
+  resolution: "@next/swc-darwin-x64@npm:14.0.2"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-linux-arm64-gnu@npm:14.0.1"
+"@next/swc-linux-arm64-gnu@npm:14.0.2":
+  version: 14.0.2
+  resolution: "@next/swc-linux-arm64-gnu@npm:14.0.2"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-linux-arm64-musl@npm:14.0.1"
+"@next/swc-linux-arm64-musl@npm:14.0.2":
+  version: 14.0.2
+  resolution: "@next/swc-linux-arm64-musl@npm:14.0.2"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-linux-x64-gnu@npm:14.0.1"
+"@next/swc-linux-x64-gnu@npm:14.0.2":
+  version: 14.0.2
+  resolution: "@next/swc-linux-x64-gnu@npm:14.0.2"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-linux-x64-musl@npm:14.0.1"
+"@next/swc-linux-x64-musl@npm:14.0.2":
+  version: 14.0.2
+  resolution: "@next/swc-linux-x64-musl@npm:14.0.2"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-win32-arm64-msvc@npm:14.0.1"
+"@next/swc-win32-arm64-msvc@npm:14.0.2":
+  version: 14.0.2
+  resolution: "@next/swc-win32-arm64-msvc@npm:14.0.2"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-ia32-msvc@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-win32-ia32-msvc@npm:14.0.1"
+"@next/swc-win32-ia32-msvc@npm:14.0.2":
+  version: 14.0.2
+  resolution: "@next/swc-win32-ia32-msvc@npm:14.0.2"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-win32-x64-msvc@npm:14.0.1"
+"@next/swc-win32-x64-msvc@npm:14.0.2":
+  version: 14.0.2
+  resolution: "@next/swc-win32-x64-msvc@npm:14.0.2"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -1165,29 +1121,6 @@ __metadata:
     tslib: "npm:^2.6.2"
     typescript: "npm:^5.2.2"
   checksum: b647ac85045b53afe5fd66f3f3432b8c5d90a506294d385390030c0feab993c68f44f65c069cf7ecb37bee4659aae3a718082acebbcacb26cb56bd7198b87db6
-  languageName: node
-  linkType: hard
-
-"@sideway/address@npm:^4.1.3":
-  version: 4.1.4
-  resolution: "@sideway/address@npm:4.1.4"
-  dependencies:
-    "@hapi/hoek": "npm:^9.0.0"
-  checksum: c6fad7d87fb016053e9e9b69c2f2d1f23036d5f1696df141e64c3c58bcf8c7d2a4133348adc2d246682410364d5922c6271ae556122741025794fb7c19814aae
-  languageName: node
-  linkType: hard
-
-"@sideway/formula@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@sideway/formula@npm:3.0.1"
-  checksum: 3fe81fa9662efc076bf41612b060eb9b02e846ea4bea5bd114f1662b7f1541e9dedcf98aff0d24400bcb92f113964a50e0290b86e284edbdf6346fa9b7e2bf2c
-  languageName: node
-  linkType: hard
-
-"@sideway/pinpoint@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@sideway/pinpoint@npm:2.0.0"
-  checksum: d2ca75dacaf69b8fc0bb8916a204e01def3105ee44d8be16c355e5f58189eb94039e15ce831f3d544f229889ccfa35562a0ce2516179f3a7ee1bbe0b71e55b36
   languageName: node
   linkType: hard
 
@@ -4334,19 +4267,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"joi@npm:^17.3.0":
-  version: 17.11.0
-  resolution: "joi@npm:17.11.0"
-  dependencies:
-    "@hapi/hoek": "npm:^9.0.0"
-    "@hapi/topo": "npm:^5.0.0"
-    "@sideway/address": "npm:^4.1.3"
-    "@sideway/formula": "npm:^3.0.1"
-    "@sideway/pinpoint": "npm:^2.0.0"
-  checksum: c41c86fe772828b88fbdbcaef2e41235ccbb107c22523a377f9a2fd39829f203213f37a352589f49d9a9b38bf1c645846defede8b81d8c1f3123117c1a600010
-  languageName: node
-  linkType: hard
-
 "js-tokens@npm:^3.0.0 || ^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -5095,20 +5015,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:14.0.1":
-  version: 14.0.1
-  resolution: "next@npm:14.0.1"
+"next@npm:14.0.2":
+  version: 14.0.2
+  resolution: "next@npm:14.0.2"
   dependencies:
-    "@next/env": "npm:14.0.1"
-    "@next/swc-darwin-arm64": "npm:14.0.1"
-    "@next/swc-darwin-x64": "npm:14.0.1"
-    "@next/swc-linux-arm64-gnu": "npm:14.0.1"
-    "@next/swc-linux-arm64-musl": "npm:14.0.1"
-    "@next/swc-linux-x64-gnu": "npm:14.0.1"
-    "@next/swc-linux-x64-musl": "npm:14.0.1"
-    "@next/swc-win32-arm64-msvc": "npm:14.0.1"
-    "@next/swc-win32-ia32-msvc": "npm:14.0.1"
-    "@next/swc-win32-x64-msvc": "npm:14.0.1"
+    "@next/env": "npm:14.0.2"
+    "@next/swc-darwin-arm64": "npm:14.0.2"
+    "@next/swc-darwin-x64": "npm:14.0.2"
+    "@next/swc-linux-arm64-gnu": "npm:14.0.2"
+    "@next/swc-linux-arm64-musl": "npm:14.0.2"
+    "@next/swc-linux-x64-gnu": "npm:14.0.2"
+    "@next/swc-linux-x64-musl": "npm:14.0.2"
+    "@next/swc-win32-arm64-msvc": "npm:14.0.2"
+    "@next/swc-win32-ia32-msvc": "npm:14.0.2"
+    "@next/swc-win32-x64-msvc": "npm:14.0.2"
     "@swc/helpers": "npm:0.5.2"
     busboy: "npm:1.6.0"
     caniuse-lite: "npm:^1.0.30001406"
@@ -5146,7 +5066,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 3a3ec178da972a141866494f14c32bb81be736eed7de5898687cfdf30c756ef75afc882f53e46b978021eef379d6aa82b43dd6a38ed05d4098dc0075990bac9c
+  checksum: 65ae7a09f1643bc3deafdbdae9ce0c02326346c4a60a7c739f8f6b154b2226b8fcc5efb984cdcb4ef100116910d4c1013089135800d30c7a50cf98c9d22e5a26
   languageName: node
   linkType: hard
 
@@ -6211,18 +6131,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-oauth2@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "simple-oauth2@npm:4.3.0"
-  dependencies:
-    "@hapi/hoek": "npm:^9.0.4"
-    "@hapi/wreck": "npm:^17.0.0"
-    debug: "npm:^4.1.1"
-    joi: "npm:^17.3.0"
-  checksum: d36ce6c77814e5c1d9d3333608b184e5dca535ed38b5557804f6c323db0b700da559604c7b5b865ddc922345457dc7895c5a08b1fa725e8851749f85076c026e
-  languageName: node
-  linkType: hard
-
 "simple-update-notifier@npm:^2.0.0":
   version: 2.0.0
   resolution: "simple-update-notifier@npm:2.0.0"
@@ -7119,7 +7027,7 @@ __metadata:
   resolution: "web@workspace:apps/web"
   dependencies:
     "@emailjs/browser": "npm:^3.11.0"
-    "@kinde-oss/kinde-auth-nextjs": "npm:^2.0.1"
+    "@kinde-oss/kinde-auth-nextjs": "npm:^2.0.6"
     "@prisma/client": "npm:5.5.2"
     "@types/node": "npm:^20.8.10"
     "@types/react": "npm:^18.2.35"
@@ -7133,7 +7041,7 @@ __metadata:
     date-fns: "npm:^2.30.0"
     eslint: "npm:8.53.0"
     framer-motion: "npm:10.16.4"
-    next: "npm:14.0.1"
+    next: "npm:14.0.2"
     next-sitemap: "npm:^4.2.3"
     next-themes: "npm:^0.2.1"
     postcss: "npm:^8.4.31"
