@@ -19,6 +19,8 @@ export async function POST(request: NextRequest) {
 		const json = await request.json();
 		const { message } = schema.parse(json);
 
+		if (!user) return NextResponse.json({ message: "Unauthorized, please login." }, { status: 401 });
+
 		await prisma.message.create({
 			data: { content: message, name: `${user.given_name} ${user.family_name}`, userId: user.id!, picture: user.picture }
 		});
