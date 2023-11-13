@@ -6,7 +6,7 @@ import React from "react";
 
 const User: React.FC = async () => {
 	const session = getKindeServerSession();
-	const user = await session.getUser();
+	const user = (await session.getUser())!;
 
 	return (
 		<div className="flex items-center justify-between max-sm:flex-col max-sm:items-start max-sm:gap-y-2">
