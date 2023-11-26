@@ -290,11 +290,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kinde-oss/kinde-auth-nextjs@npm:^2.0.9":
-  version: 2.0.9
-  resolution: "@kinde-oss/kinde-auth-nextjs@npm:2.0.9"
+"@kinde-oss/kinde-auth-nextjs@npm:^2.0.10":
+  version: 2.0.10
+  resolution: "@kinde-oss/kinde-auth-nextjs@npm:2.0.10"
   dependencies:
-    "@kinde-oss/kinde-typescript-sdk": "npm:^2.2.3"
+    "@kinde-oss/kinde-typescript-sdk": "npm:^2.3.0"
     cookie: "npm:^0.5.0"
     crypto-js: "npm:^4.1.1"
     jwt-decode: "npm:^3.1.2"
@@ -303,16 +303,17 @@ __metadata:
     next: ^12.2.5 || ^13 || ^14
     react: ^18.1.0
     react-dom: ^18.1.0
-  checksum: 8a5d5c31a86d4d063b7065ffb7a59e546a15889e5add34413cfc365fe649a43b790f8eba11baf80bdda415da11875a74cb1bb9b53d30cab01d9109d4db3cea91
+  checksum: 6fdb820fc2a8c40fcd11f3d31d165c5378e216795873c4f0d1a9ba06afa22aac8f97889acbb95b2c89c75a8082e7506a7ec077ea76e650612d8e52c6b0784c53
   languageName: node
   linkType: hard
 
-"@kinde-oss/kinde-typescript-sdk@npm:^2.2.3":
-  version: 2.2.3
-  resolution: "@kinde-oss/kinde-typescript-sdk@npm:2.2.3"
+"@kinde-oss/kinde-typescript-sdk@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "@kinde-oss/kinde-typescript-sdk@npm:2.3.0"
   dependencies:
+    jwt-decode: "npm:^4.0.0"
     uncrypto: "npm:^0.1.3"
-  checksum: 2eb06dfdeb78ea5468899549a6a75264cf9edb21f36b70a0ebddedfcd3875d18b25941921eb7276df8240146ae759a50d4032411be0632e9147f02e1a4aa5399
+  checksum: 27f875f951e9eaf2c8d2f42f592638de177bd30175dede96845b81e83baaff66609c21481f13a3c4ecac1bd8ccad9b20dd0af8c75522c619925acbb75a3760ba
   languageName: node
   linkType: hard
 
@@ -4339,6 +4340,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jwt-decode@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "jwt-decode@npm:4.0.0"
+  checksum: de75bbf89220746c388cf6a7b71e56080437b77d2edb29bae1c2155048b02c6b8c59a3e5e8d6ccdfd54f0b8bda25226e491a4f1b55ac5f8da04cfbadec4e546c
+  languageName: node
+  linkType: hard
+
 "language-subtag-registry@npm:~0.3.2":
   version: 0.3.22
   resolution: "language-subtag-registry@npm:0.3.22"
@@ -4469,12 +4477,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.292.0":
-  version: 0.292.0
-  resolution: "lucide-react@npm:0.292.0"
+"lucide-react@npm:^0.293.0":
+  version: 0.293.0
+  resolution: "lucide-react@npm:0.293.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 6a29a213d6ef27fc23aef54838255f73d64b0f542da0f61cd21d3150a74aee3c366805c9ebdfefe0dfaa8b35bf8af27789d6d43109588c3f322b978cedd81926
+  checksum: 034d257b0833ebca674135b38f9ecf8b7d344ac2c15607e2eb5aeb0bd221945c5971ae35cfe9d6d26c479ff6b986f7b8bfee03ca3084ccd866086c2e54de641c
   languageName: node
   linkType: hard
 
@@ -7026,7 +7034,7 @@ __metadata:
   resolution: "web@workspace:apps/web"
   dependencies:
     "@emailjs/browser": "npm:^3.11.0"
-    "@kinde-oss/kinde-auth-nextjs": "npm:^2.0.9"
+    "@kinde-oss/kinde-auth-nextjs": "npm:^2.0.10"
     "@prisma/client": "npm:5.6.0"
     "@types/node": "npm:^20.9.2"
     "@types/react": "npm:^18.2.37"
@@ -7144,7 +7152,7 @@ __metadata:
     husky: "npm:^8.0.3"
     is-ci: "npm:^3.0.1"
     lint-staged: "npm:^15.1.0"
-    lucide-react: "npm:^0.292.0"
+    lucide-react: "npm:^0.293.0"
     nodemon: "npm:^3.0.1"
     prettier: "npm:^3.1.0"
     react-hook-form: "npm:^7.48.2"
