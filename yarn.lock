@@ -473,15 +473,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:5.7.0":
-  version: 5.7.0
-  resolution: "@prisma/client@npm:5.7.0"
+"@prisma/client@npm:5.7.1":
+  version: 5.7.1
+  resolution: "@prisma/client@npm:5.7.1"
   peerDependencies:
     prisma: "*"
   peerDependenciesMeta:
     prisma:
       optional: true
-  checksum: f5a634a735fdcb9576f949a9ba84da48744db514ce853b04021c7a13c673081cfb110244f20f7985516c69a101000fefcecf51ad634fd2b9c41c6715bec1c014
+  checksum: 5eafbe3955de13620c7b661282c79e85211bb0cba950559f87e7a679ff06f5242864b0cbe6e76316eb35366ac3df9b2b02ced7cbedc238bcbc4e412d7acf3b72
   languageName: node
   linkType: hard
 
@@ -4477,12 +4477,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.298.0":
-  version: 0.298.0
-  resolution: "lucide-react@npm:0.298.0"
+"lucide-react@npm:^0.300.0":
+  version: 0.300.0
+  resolution: "lucide-react@npm:0.300.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 31a8c8f5b2c54cbb40eca7e8085b69c59f5b1eb37b48be1661c49bf131d03e4e926e1af297bad8f026952b2d4b2d9e486e701cb681095b4981f80d41156a82e4
+  checksum: cd532ee6eca64662abd3850d8b2f9135a5c8ca239a0f7ab0d01cf743271e953aa2b3b6af2027d3eaefc33564eb2c4c51d4664865920c4b6adc332f4c59cebc74
   languageName: node
   linkType: hard
 
@@ -6466,12 +6466,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwind-merge@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "tailwind-merge@npm:2.1.0"
+"tailwind-merge@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "tailwind-merge@npm:2.2.0"
   dependencies:
     "@babel/runtime": "npm:^7.23.5"
-  checksum: 8a8a7fc7fd480e2ecfc6f5f1450d3cb73ef409d90c1be8ced9ea51ed957af9573e13e01e09e3ae0fa8b5eb58c83157b09e25e499a9a60d633e78d85771690f84
+  checksum: 41476d686af101c770401f4db509ffea9ec13bf99fd18185903dd86df2b71b3f512d9373b0f2785cb9e9abf093f39373327a29e9b3dde643b9daf7062f77c4ba
   languageName: node
   linkType: hard
 
@@ -7036,7 +7036,7 @@ __metadata:
   dependencies:
     "@emailjs/browser": "npm:^3.11.0"
     "@kinde-oss/kinde-auth-nextjs": "npm:^2.0.13"
-    "@prisma/client": "npm:5.7.0"
+    "@prisma/client": "npm:5.7.1"
     "@types/node": "npm:^20.9.0"
     "@types/react": "npm:^18.2.37"
     "@types/react-dom": "npm:^18.2.15"
@@ -7153,11 +7153,11 @@ __metadata:
     husky: "npm:^8.0.3"
     is-ci: "npm:^3.0.1"
     lint-staged: "npm:^15.1.0"
-    lucide-react: "npm:^0.298.0"
+    lucide-react: "npm:^0.300.0"
     nodemon: "npm:^3.0.1"
     prettier: "npm:^3.1.0"
     react-hook-form: "npm:^7.49.2"
-    tailwind-merge: "npm:^2.1.0"
+    tailwind-merge: "npm:^2.2.0"
     tailwindcss-animate: "npm:^1.0.7"
     turbo: "npm:^1.10.16"
     typescript: "npm:5.2.2"
