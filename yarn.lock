@@ -198,12 +198,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hookform/resolvers@npm:^3.3.3":
-  version: 3.3.3
-  resolution: "@hookform/resolvers@npm:3.3.3"
+"@hookform/resolvers@npm:^3.3.4":
+  version: 3.3.4
+  resolution: "@hookform/resolvers@npm:3.3.4"
   peerDependencies:
     react-hook-form: ^7.0.0
-  checksum: 3d86b8226a82bc58b8190d97b5f8ffa8f8f497163f90a6794d605a20eb709068eca4c65014b95f4376f4543ccc3289a4c295c71fc41cbd3b8557fd2711d33e98
+  checksum: f7a5b8ba59cbb0859e7a212bd5cbcbc70bbdddd21d4fbe9f4a96d149b5756470cb29857a50334d8c1c64392e21007ccf5288d26aa407431784d4006a2570cb36
   languageName: node
   linkType: hard
 
@@ -299,11 +299,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kinde-oss/kinde-auth-nextjs@npm:^2.0.13":
-  version: 2.0.13
-  resolution: "@kinde-oss/kinde-auth-nextjs@npm:2.0.13"
+"@kinde-oss/kinde-auth-nextjs@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@kinde-oss/kinde-auth-nextjs@npm:2.1.0"
   dependencies:
-    "@kinde-oss/kinde-typescript-sdk": "npm:^2.3.0"
+    "@kinde-oss/kinde-typescript-sdk": "npm:^2.4.0"
     cookie: "npm:^0.5.0"
     crypto-js: "npm:^4.1.1"
     jwt-decode: "npm:^3.1.2"
@@ -312,17 +312,17 @@ __metadata:
     next: ^12.2.5 || ^13 || ^14
     react: ^18.1.0
     react-dom: ^18.1.0
-  checksum: fe54cb8922eac36f52a73fecbfb155c767c2549879a50c2ad198fbc9155c9afe4c52c574a1876c4011cdaf7b256e1ef05be29d8562ce412bad6666669042de24
+  checksum: 4ddffe9c712578b0ccf15afbb03b439188f606d48a6ff8bbe29ccc5a7732c3330fc467d97ef594b8c31af2bb1d7f388d2eb7baf5a09ecf1ae50609bb037d8bc6
   languageName: node
   linkType: hard
 
-"@kinde-oss/kinde-typescript-sdk@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "@kinde-oss/kinde-typescript-sdk@npm:2.3.0"
+"@kinde-oss/kinde-typescript-sdk@npm:^2.4.0":
+  version: 2.5.0
+  resolution: "@kinde-oss/kinde-typescript-sdk@npm:2.5.0"
   dependencies:
     jwt-decode: "npm:^4.0.0"
     uncrypto: "npm:^0.1.3"
-  checksum: 27f875f951e9eaf2c8d2f42f592638de177bd30175dede96845b81e83baaff66609c21481f13a3c4ecac1bd8ccad9b20dd0af8c75522c619925acbb75a3760ba
+  checksum: 4ad19866d75c9b003b061a8fb446f0b2a7b1aa3b263c952f2af1026bc554ec185f3bdefa26074b0bfc059c586550ffd06acb2078cc3e48b6c6722573548d8419
   languageName: node
   linkType: hard
 
@@ -2384,10 +2384,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^3.0.6":
-  version: 3.0.6
-  resolution: "date-fns@npm:3.0.6"
-  checksum: ca6ac81aca623fd6d12a43da59cc216e13a75a2eecf7fac692654524fca625e073f5cd36951ef0deac9621ead564eb06b4c3723f77b34e86f21ca3c0c3b32ff7
+"date-fns@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "date-fns@npm:3.1.0"
+  checksum: 60ded37aff397077780bf7b4e545b85041ee97e2acb24ffb99b84dcd8cf64d1c360d1f7bbf7e811840bb8df4f054508fa3dfb438f9e1558ddf5fe7645f4bdbf9
   languageName: node
   linkType: hard
 
@@ -3312,9 +3312,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:10.16.16":
-  version: 10.16.16
-  resolution: "framer-motion@npm:10.16.16"
+"framer-motion@npm:10.17.9":
+  version: 10.17.9
+  resolution: "framer-motion@npm:10.17.9"
   dependencies:
     "@emotion/is-prop-valid": "npm:^0.8.2"
     tslib: "npm:^2.4.0"
@@ -3329,7 +3329,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 4cd620971e6ac044461783ee94d8fe39dafd11d658f1b2fb06f025c0c502d022bb3bf24dd95b9486325fce27e437ce575b8f033c7770539b4fb3af62a5742e71
+  checksum: c27932b62c2d1971ba1117d54946b3bdafdd2b7fff5e932753ad130c7de8d5c746cd5b2eadb260f0a2718af52f0faed6dc55161b22202b26712a79d13e223a3f
   languageName: node
   linkType: hard
 
@@ -4482,12 +4482,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.303.0":
-  version: 0.303.0
-  resolution: "lucide-react@npm:0.303.0"
+"lucide-react@npm:^0.307.0":
+  version: 0.307.0
+  resolution: "lucide-react@npm:0.307.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 58dc833311a4aa29b4a71ce1dade2c55eba3d07d5f9207fdabe55ed06499f13d62439bb37942b7aaebea90f638deb7ec67adde1e12404fb4d9f82a19ba1727f5
+  checksum: 6902679574af4b1d3a3dc3b90fca54f173045eab9ea74c4be3aef01e31cee2b9897b50f59205344d8109bb821554c28132f394e853071aa04b08e778a1ae9fad
   languageName: node
   linkType: hard
 
@@ -7040,7 +7040,7 @@ __metadata:
   resolution: "web@workspace:apps/web"
   dependencies:
     "@emailjs/browser": "npm:^3.11.0"
-    "@kinde-oss/kinde-auth-nextjs": "npm:^2.0.13"
+    "@kinde-oss/kinde-auth-nextjs": "npm:^2.1.0"
     "@prisma/client": "npm:5.7.1"
     "@types/node": "npm:^20.9.0"
     "@types/react": "npm:^18.2.37"
@@ -7051,9 +7051,9 @@ __metadata:
     "@whoami/ui": "npm:*"
     "@whoami/utils": "npm:*"
     autoprefixer: "npm:^10.4.16"
-    date-fns: "npm:^3.0.6"
+    date-fns: "npm:^3.1.0"
     eslint: "npm:8.53.0"
-    framer-motion: "npm:10.16.16"
+    framer-motion: "npm:10.17.9"
     next: "npm:14.0.4"
     next-sitemap: "npm:^4.2.3"
     next-themes: "npm:^0.2.1"
@@ -7141,7 +7141,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "whoami@workspace:."
   dependencies:
-    "@hookform/resolvers": "npm:^3.3.3"
+    "@hookform/resolvers": "npm:^3.3.4"
     "@radix-ui/react-toast": "npm:^1.1.5"
     "@sapphire/eslint-config": "npm:^5.0.2"
     "@sapphire/ts-config": "npm:^5.0.0"
@@ -7158,7 +7158,7 @@ __metadata:
     husky: "npm:^8.0.3"
     is-ci: "npm:^3.0.1"
     lint-staged: "npm:^15.1.0"
-    lucide-react: "npm:^0.303.0"
+    lucide-react: "npm:^0.307.0"
     nodemon: "npm:^3.0.1"
     prettier: "npm:^3.1.0"
     react-hook-form: "npm:^7.49.2"
