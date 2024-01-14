@@ -53,10 +53,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emailjs/browser@npm:^3.11.0":
-  version: 3.11.0
-  resolution: "@emailjs/browser@npm:3.11.0"
-  checksum: e80356c05718a7af247f4577990cc9240e4f299fde6aeaca927c3fdcd0021984917c24003f062df8826b01157849d28e2554626f7d53a967fe71f8b645a4bff8
+"@emailjs/browser@npm:^3.12.1":
+  version: 3.12.1
+  resolution: "@emailjs/browser@npm:3.12.1"
+  checksum: 6e78715e5e0a43ee7fdbfcef9fd2b722a69a977e545b25c0ed94a61e3d01c99f72f1de4394970337365975d599d459af9be040e489091675a6d474e69996f746
   languageName: node
   linkType: hard
 
@@ -473,15 +473,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:5.7.1":
-  version: 5.7.1
-  resolution: "@prisma/client@npm:5.7.1"
+"@prisma/client@npm:5.8.0":
+  version: 5.8.0
+  resolution: "@prisma/client@npm:5.8.0"
   peerDependencies:
     prisma: "*"
   peerDependenciesMeta:
     prisma:
       optional: true
-  checksum: 5eafbe3955de13620c7b661282c79e85211bb0cba950559f87e7a679ff06f5242864b0cbe6e76316eb35366ac3df9b2b02ced7cbedc238bcbc4e412d7acf3b72
+  checksum: 50df2ab4c611896227ba29861edb338c4f1fd4f1b5075b7ac363a80f696ec93d88d81faa4028b3f0837b00ddb925faf1b0bb9d793a4197be5a0e135dd68c610c
   languageName: node
   linkType: hard
 
@@ -2384,10 +2384,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "date-fns@npm:3.1.0"
-  checksum: 60ded37aff397077780bf7b4e545b85041ee97e2acb24ffb99b84dcd8cf64d1c360d1f7bbf7e811840bb8df4f054508fa3dfb438f9e1558ddf5fe7645f4bdbf9
+"date-fns@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "date-fns@npm:3.2.0"
+  checksum: f93e987f785d7f2b7349986d150b014ce21fa6425e2e1edea6f0e01731dceef68deabf0f723689c28604e857648ac708a52b924cb7584e4321835686aa665371
   languageName: node
   linkType: hard
 
@@ -3312,9 +3312,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:10.17.9":
-  version: 10.17.9
-  resolution: "framer-motion@npm:10.17.9"
+"framer-motion@npm:10.18.0":
+  version: 10.18.0
+  resolution: "framer-motion@npm:10.18.0"
   dependencies:
     "@emotion/is-prop-valid": "npm:^0.8.2"
     tslib: "npm:^2.4.0"
@@ -3329,7 +3329,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: c27932b62c2d1971ba1117d54946b3bdafdd2b7fff5e932753ad130c7de8d5c746cd5b2eadb260f0a2718af52f0faed6dc55161b22202b26712a79d13e223a3f
+  checksum: 0aea1b3dc5cf06687e31f3b6c0b6b1a2cd070afdd4a9d38ebf15715c662ca1d6d1c25e6778695e5ebff37a6ce92b031d036c02570370e6057e66aa9de9f9370f
   languageName: node
   linkType: hard
 
@@ -4482,12 +4482,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.307.0":
-  version: 0.307.0
-  resolution: "lucide-react@npm:0.307.0"
+"lucide-react@npm:^0.309.0":
+  version: 0.309.0
+  resolution: "lucide-react@npm:0.309.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 6902679574af4b1d3a3dc3b90fca54f173045eab9ea74c4be3aef01e31cee2b9897b50f59205344d8109bb821554c28132f394e853071aa04b08e778a1ae9fad
+  checksum: 3253675fa2225f742c3f66423445551fa4b973108951fd161d41c494ff60d388cc2d36ed3f76c4677a988bf9f1e127ce40d4a957f38bf355300906f29e67523b
   languageName: node
   linkType: hard
 
@@ -5662,12 +5662,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-hook-form@npm:^7.49.2":
-  version: 7.49.2
-  resolution: "react-hook-form@npm:7.49.2"
+"react-hook-form@npm:^7.49.3":
+  version: 7.49.3
+  resolution: "react-hook-form@npm:7.49.3"
   peerDependencies:
     react: ^16.8.0 || ^17 || ^18
-  checksum: 8e2d3209d49a816f08e61a3b1847e9edff5ecb6e5b3cd056780c2331f8bb32aa0b7a2542bece602b415ddd4009023c5d054a27a021dc5014672623d5990853c8
+  checksum: f8e5b2dcc3d97c820b4fbac262d7e914d74f385f26f34da31b8efc6c0f32ba995f2a2330bdfd3d8b7c8b56a52349a0cbc0c0dbe9053b3971e5e0c78003dfb7f0
   languageName: node
   linkType: hard
 
@@ -7039,9 +7039,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:apps/web"
   dependencies:
-    "@emailjs/browser": "npm:^3.11.0"
+    "@emailjs/browser": "npm:^3.12.1"
     "@kinde-oss/kinde-auth-nextjs": "npm:^2.1.0"
-    "@prisma/client": "npm:5.7.1"
+    "@prisma/client": "npm:5.8.0"
     "@types/node": "npm:^20.9.2"
     "@types/react": "npm:^18.2.37"
     "@types/react-dom": "npm:^18.2.15"
@@ -7051,9 +7051,9 @@ __metadata:
     "@whoami/ui": "npm:*"
     "@whoami/utils": "npm:*"
     autoprefixer: "npm:^10.4.16"
-    date-fns: "npm:^3.1.0"
+    date-fns: "npm:^3.2.0"
     eslint: "npm:8.54.0"
-    framer-motion: "npm:10.17.9"
+    framer-motion: "npm:10.18.0"
     next: "npm:14.0.4"
     next-sitemap: "npm:^4.2.3"
     next-themes: "npm:^0.2.1"
@@ -7158,10 +7158,10 @@ __metadata:
     husky: "npm:^8.0.3"
     is-ci: "npm:^3.0.1"
     lint-staged: "npm:^15.1.0"
-    lucide-react: "npm:^0.307.0"
+    lucide-react: "npm:^0.309.0"
     nodemon: "npm:^3.0.1"
     prettier: "npm:^3.1.0"
-    react-hook-form: "npm:^7.49.2"
+    react-hook-form: "npm:^7.49.3"
     tailwind-merge: "npm:^2.2.0"
     tailwindcss-animate: "npm:^1.0.7"
     turbo: "npm:^1.10.16"
