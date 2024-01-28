@@ -37,12 +37,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.23.5":
-  version: 7.23.5
-  resolution: "@babel/runtime@npm:7.23.5"
+"@babel/runtime@npm:^7.23.7":
+  version: 7.23.9
+  resolution: "@babel/runtime@npm:7.23.9"
   dependencies:
     regenerator-runtime: "npm:^0.14.0"
-  checksum: ca679cc91bb7e424bc2db87bb58cc3b06ade916b9adb21fbbdc43e54cdaacb3eea201ceba2a0464b11d2eb65b9fe6a6ffcf4d7521fa52994f19be96f1af14788
+  checksum: e71205fdd7082b2656512cc98e647d9ea7e222e4fe5c36e9e5adc026446fcc3ba7b3cdff8b0b694a0b78bb85db83e7b1e3d4c56ef90726682b74f13249cf952d
   languageName: node
   linkType: hard
 
@@ -299,11 +299,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kinde-oss/kinde-auth-nextjs@npm:^2.1.3":
-  version: 2.1.3
-  resolution: "@kinde-oss/kinde-auth-nextjs@npm:2.1.3"
+"@kinde-oss/kinde-auth-nextjs@npm:^2.1.5":
+  version: 2.1.5
+  resolution: "@kinde-oss/kinde-auth-nextjs@npm:2.1.5"
   dependencies:
-    "@kinde-oss/kinde-typescript-sdk": "npm:^2.6.0"
+    "@kinde-oss/kinde-typescript-sdk": "npm:^2.6.2"
     cookie: "npm:^0.5.0"
     crypto-js: "npm:^4.1.1"
     jwt-decode: "npm:^3.1.2"
@@ -312,17 +312,17 @@ __metadata:
     next: ^12.2.5 || ^13 || ^14
     react: ^18.1.0
     react-dom: ^18.1.0
-  checksum: 93727ff9d829acab8163f917c80e54995a352b7a3dd2dc7dcbbe7738b32db3e5beb84058d81c859043650ca5a7d516e2339ee1470f3aac55bbc69fb4fb1a31a6
+  checksum: 9fe7c90fe8b4ce41e80a33195ff18b7c7cd7afec656e157157e69e420dbd38754f369c91e3132d43316b0ffac8c7da4178b2f01cef1a9a9ad048386851dee7cf
   languageName: node
   linkType: hard
 
-"@kinde-oss/kinde-typescript-sdk@npm:^2.6.0":
-  version: 2.6.0
-  resolution: "@kinde-oss/kinde-typescript-sdk@npm:2.6.0"
+"@kinde-oss/kinde-typescript-sdk@npm:^2.6.2":
+  version: 2.6.2
+  resolution: "@kinde-oss/kinde-typescript-sdk@npm:2.6.2"
   dependencies:
     jwt-decode: "npm:^4.0.0"
     uncrypto: "npm:^0.1.3"
-  checksum: 8b9bc58e7db994a3399f29fde0a09f417c14e027e5a76c4f9847e74cd827c44d25887800add9b84e2505328ea01bde272c828732fd104a4782e8e5023f46dc58
+  checksum: 802b6698e0b4efd3742066d04cdc025051bb3578a9c5810ff40981178c2c16d39298480bbe3f3556689a80d97b0f6bfb4ed94ac5d2da7bdcb8dc0e3889b3e33d
   languageName: node
   linkType: hard
 
@@ -2384,10 +2384,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^3.3.0":
-  version: 3.3.0
-  resolution: "date-fns@npm:3.3.0"
-  checksum: 71aa44146f1f4a626535d3c81c751f870a57a5bee141412accd18e02f9f215aeb51fce67204a9e13eb228e90ffadcada9974d542e474d2b1b6510eefb244bd7d
+"date-fns@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "date-fns@npm:3.3.1"
+  checksum: e04ff79244010e03b912d791cd3250af5f18866ce868604958d76bd87e5fb0b79f0a810b8e7066248452b41779b288c4fd21de1cac2cd4b6d384e9dd931c9674
   languageName: node
   linkType: hard
 
@@ -4475,12 +4475,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.312.0":
-  version: 0.312.0
-  resolution: "lucide-react@npm:0.312.0"
+"lucide-react@npm:^0.316.0":
+  version: 0.316.0
+  resolution: "lucide-react@npm:0.316.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 491b3403f51a1740c8cb0a558c4151c28eb175fc386099dbf9eaa63a314bb941ecb5cf6434b233ef6708e2af51ebaf8362987cc59958584990c1d1b5f34d4237
+  checksum: e1f90af4c62042a99fba873422e9e1538afc48e81d242ffd1cbc2b9d6e0257f153201370f8ae8c08ec6b95214c78c17a6c1b7e8f6cb3bce8f1dae9509f866b6f
   languageName: node
   linkType: hard
 
@@ -6463,12 +6463,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwind-merge@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "tailwind-merge@npm:2.2.0"
+"tailwind-merge@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "tailwind-merge@npm:2.2.1"
   dependencies:
-    "@babel/runtime": "npm:^7.23.5"
-  checksum: 41476d686af101c770401f4db509ffea9ec13bf99fd18185903dd86df2b71b3f512d9373b0f2785cb9e9abf093f39373327a29e9b3dde643b9daf7062f77c4ba
+    "@babel/runtime": "npm:^7.23.7"
+  checksum: 14ab965ec897e9377484b7593f7a700dde09b8035b762ad42652622a3ed1f202b203f48c0f235c0b1b38e9390470d94458f6f9010d33a5a18d71b15f38b986a6
   languageName: node
   linkType: hard
 
@@ -7022,7 +7022,7 @@ __metadata:
   resolution: "web@workspace:apps/web"
   dependencies:
     "@emailjs/browser": "npm:^3.12.1"
-    "@kinde-oss/kinde-auth-nextjs": "npm:^2.1.3"
+    "@kinde-oss/kinde-auth-nextjs": "npm:^2.1.5"
     "@prisma/client": "npm:5.8.1"
     "@types/node": "npm:^20.9.2"
     "@types/react": "npm:^18.2.37"
@@ -7033,7 +7033,7 @@ __metadata:
     "@whoami/ui": "npm:*"
     "@whoami/utils": "npm:*"
     autoprefixer: "npm:^10.4.16"
-    date-fns: "npm:^3.3.0"
+    date-fns: "npm:^3.3.1"
     eslint: "npm:8.54.0"
     framer-motion: "npm:10.18.0"
     next: "npm:14.1.0"
@@ -7140,11 +7140,11 @@ __metadata:
     husky: "npm:^8.0.3"
     is-ci: "npm:^3.0.1"
     lint-staged: "npm:^15.1.0"
-    lucide-react: "npm:^0.312.0"
+    lucide-react: "npm:^0.316.0"
     nodemon: "npm:^3.0.1"
     prettier: "npm:^3.1.0"
     react-hook-form: "npm:^7.49.3"
-    tailwind-merge: "npm:^2.2.0"
+    tailwind-merge: "npm:^2.2.1"
     tailwindcss-animate: "npm:^1.0.7"
     turbo: "npm:^1.10.16"
     typescript: "npm:5.2.2"
