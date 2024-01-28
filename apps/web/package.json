@@ -19,7 +19,7 @@
 		"@whoami/ui": "*",
 		"@whoami/utils": "*",
 		"date-fns": "^3.3.0",
-		"framer-motion": "10.18.0",
+		"framer-motion": "11.0.3",
 		"next": "14.1.0",
 		"next-sitemap": "^4.2.3",
 		"next-themes": "^0.2.1",
