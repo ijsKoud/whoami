@@ -12,7 +12,7 @@
 	},
 	"dependencies": {
 		"@emailjs/browser": "^3.12.1",
-		"@kinde-oss/kinde-auth-nextjs": "^2.1.7",
+		"@kinde-oss/kinde-auth-nextjs": "^2.1.10",
 		"@prisma/client": "5.9.1",
 		"@uidotdev/usehooks": "^2.4.1",
 		"@whoami/markdown": "*",
