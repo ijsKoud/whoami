@@ -1530,9 +1530,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kinde-oss/kinde-auth-nextjs@npm:^2.1.10":
-  version: 2.1.10
-  resolution: "@kinde-oss/kinde-auth-nextjs@npm:2.1.10"
+"@kinde-oss/kinde-auth-nextjs@npm:^2.1.13":
+  version: 2.1.13
+  resolution: "@kinde-oss/kinde-auth-nextjs@npm:2.1.13"
   dependencies:
     "@babel/preset-env": "npm:^7.23.9"
     "@kinde-oss/kinde-typescript-sdk": "npm:^2.6.2"
@@ -1544,7 +1544,7 @@ __metadata:
     next: ^12.2.5 || ^13 || ^14
     react: ^18.1.0
     react-dom: ^18.1.0
-  checksum: 809f803b210f7d815d8e163ca9d28db62f498c08f0f9ffba66d60343679a3709bcebfad3be30335b8d334d5e4750ad879267dc70d85a3e3cdba17a1d09bb1d83
+  checksum: 27d8bd56fc1dac2017fa7a6fe010e6f6e06c8be303f0091b79d86873c412628fa29ef659e3529fbb8369404e6b29930f2caaa24be6e85731012e14db7681e160
   languageName: node
   linkType: hard
 
@@ -4660,9 +4660,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:11.0.3":
-  version: 11.0.3
-  resolution: "framer-motion@npm:11.0.3"
+"framer-motion@npm:11.0.5":
+  version: 11.0.5
+  resolution: "framer-motion@npm:11.0.5"
   dependencies:
     "@emotion/is-prop-valid": "npm:^0.8.2"
     tslib: "npm:^2.4.0"
@@ -4677,7 +4677,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: a9a70196ea5d264f749a7dea1ccb7c33decf969680a907c595eb48d84510b60fb51e3e0d16d5bcac0997eea041f796f2cba4a5505e0a00f373ffbadfb5f36564
+  checksum: a7ed2c56f2d25b610a11a7056304c2ed92cb37ca448c820432db162ae05c920fb3853b703130fbaded534099d4bced8af34168bd2b464d93f5bb8897951ce057
   languageName: node
   linkType: hard
 
@@ -5855,12 +5855,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.323.0":
-  version: 0.323.0
-  resolution: "lucide-react@npm:0.323.0"
+"lucide-react@npm:^0.331.0":
+  version: 0.331.0
+  resolution: "lucide-react@npm:0.331.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 2b4d0bbf936a2fd78f83e15a65dfd682f86817cf1942df616d0f0f6ed129d2b0c592248e736e3330085d468cfc0ef108d88f35e8a05228c2215973d8a1f2fb90
+  checksum: a6fcc4bb5ca314a6bce246c9e9689516cbd5be186eff7a8796c17b6596919ad3f4bd543ce434bd2321904c8631822a9fa835534beb925ca85991d65233cab0a6
   languageName: node
   linkType: hard
 
@@ -8537,7 +8537,7 @@ __metadata:
   resolution: "web@workspace:apps/web"
   dependencies:
     "@emailjs/browser": "npm:^3.12.1"
-    "@kinde-oss/kinde-auth-nextjs": "npm:^2.1.10"
+    "@kinde-oss/kinde-auth-nextjs": "npm:^2.1.13"
     "@prisma/client": "npm:5.9.1"
     "@types/node": "npm:^20.9.2"
     "@types/react": "npm:^18.2.37"
@@ -8550,7 +8550,7 @@ __metadata:
     autoprefixer: "npm:^10.4.16"
     date-fns: "npm:^3.3.1"
     eslint: "npm:8.54.0"
-    framer-motion: "npm:11.0.3"
+    framer-motion: "npm:11.0.5"
     next: "npm:14.1.0"
     next-sitemap: "npm:^4.2.3"
     next-themes: "npm:^0.2.1"
@@ -8655,7 +8655,7 @@ __metadata:
     husky: "npm:^8.0.3"
     is-ci: "npm:^3.0.1"
     lint-staged: "npm:^15.1.0"
-    lucide-react: "npm:^0.323.0"
+    lucide-react: "npm:^0.331.0"
     nodemon: "npm:^3.0.1"
     prettier: "npm:^3.1.0"
     react-hook-form: "npm:^7.50.1"
