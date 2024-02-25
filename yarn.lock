@@ -5855,12 +5855,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.338.0":
-  version: 0.338.0
-  resolution: "lucide-react@npm:0.338.0"
+"lucide-react@npm:^0.340.0":
+  version: 0.340.0
+  resolution: "lucide-react@npm:0.340.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 884a14c807c3393e3f326789da9838d13c7578dbcd6a2a1f772b08d7108420f01b387922f18a0e0b2cdaf5207ab3578bae85b1bef3deaa02ad9bcb1d436b29e4
+  checksum: b7b2a8a168f946a26bd778ed23208e1e38981db66877c575f10ad1bdccdef5101e69b8c4ca1738571d89bd9a6c15b96e9286e42069f0d87fba93fcfc06193aef
   languageName: node
   linkType: hard
 
@@ -8655,7 +8655,7 @@ __metadata:
     husky: "npm:^8.0.3"
     is-ci: "npm:^3.0.1"
     lint-staged: "npm:^15.1.0"
-    lucide-react: "npm:^0.338.0"
+    lucide-react: "npm:^0.340.0"
     nodemon: "npm:^3.0.1"
     prettier: "npm:^3.1.0"
     react-hook-form: "npm:^7.50.1"
