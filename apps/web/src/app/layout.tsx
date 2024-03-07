@@ -1,11 +1,13 @@
 import "../styles/globals.css";
 
-import type React from "react";
-import Providers from "./providers";
+import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import NavigationMenu from "@/components/NavigationMenu";
-import { Metadata } from "next";
+import React from "react";
+
 import Footer from "@/components/Footer";
+import NavigationMenu from "@/components/NavigationMenu";
+
+import Providers from "./providers";
 
 const InterFont = Inter({ display: "swap", subsets: ["latin"], weight: ["300", "400", "500", "600", "700", "800", "900"] });
 

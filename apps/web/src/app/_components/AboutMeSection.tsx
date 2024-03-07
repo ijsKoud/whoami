@@ -1,6 +1,8 @@
-import { SlideFade } from "@/components/animations/SlideFade";
-import React from "react";
 import Markdown from "@whoami/markdown";
+import React from "react";
+
+import { SlideFade } from "@/components/animations/SlideFade";
+
 import { ABOUT_ME_TEXT, EXPERIENCE_ICONS } from "./constants";
 
 const AboutMeSection: React.FC = () => {

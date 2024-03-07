@@ -1,10 +1,12 @@
-import { SlideFade } from "@/components/animations/SlideFade";
-import AnimatedArrowIcon from "@whoami/ui/icons/AnimatedArrow";
-import { Button } from "@whoami/ui/button";
 import Markdown from "@whoami/markdown";
+import { Button } from "@whoami/ui/button";
+import AnimatedArrowIcon from "@whoami/ui/icons/AnimatedArrow";
 import Link from "next/link";
 import React from "react";
 import { parse } from "twemoji-parser";
+
+import { SlideFade } from "@/components/animations/SlideFade";
+
 import { LANDING_BULLET_POINTS, LANDING_TEXT } from "./constants";
 
 const IntroductionSection: React.FC = () => {

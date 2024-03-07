@@ -1,9 +1,11 @@
-import React from "react";
-import { PROJECTS_LIST } from "./constants";
+import { Button } from "@whoami/ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@whoami/ui/button";
+import React from "react";
+
 import { SlideFade } from "@/components/animations/SlideFade";
+
+import { PROJECTS_LIST } from "./constants";
 
 const ProjectsSection: React.FC = () => {
 	return (

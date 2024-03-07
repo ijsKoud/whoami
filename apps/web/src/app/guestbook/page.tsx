@@ -1,12 +1,12 @@
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
-import type React from "react";
-import User from "./_components/User";
-import LoggedOut from "./_components/LoggedOut";
+import type { Metadata } from "next";
+import React, { Suspense } from "react";
+
 import InputForm from "./_components/InputForm";
-import { Metadata } from "next";
-import { Suspense } from "react";
-import Messages from "./_components/Messages";
 import Loading from "./_components/Loading";
+import LoggedOut from "./_components/LoggedOut";
+import Messages from "./_components/Messages";
+import User from "./_components/User";
 
 export const metadata: Metadata = {
 	title: "Guestbook"
