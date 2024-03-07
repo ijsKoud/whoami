@@ -25,7 +25,7 @@
 ## Install
 
 Want to create your own version of this website? Make sure to [fork it](https://github.com/ijskoud/whoami/fork) first and edit all the contents in [constants](/apps/web/src/app/_components/constants.tsx).
-After that `yarn install` to install all the dependencies, `yarn start:dev` to spin-up the dev version and `yarn build` to build the application. You can use `yarn workspace web run start` to start the application or ship it to [Vercel](https://vercel.com/snowcrystals?utm_source=snowcrystals&utm_campaign=oss). Make sure to check the [.env.example](/apps/web/.env.example) file for the required environment variables.
+After that `pnpm install` to install all the dependencies, `pnpm start:dev` to spin-up the dev version and `pnpm build` to build the application. You can use `pnpm --filter=web start` to start the application or ship it to [Vercel](https://vercel.com/snowcrystals?utm_source=snowcrystals&utm_campaign=oss). Make sure to check the [.env.example](/apps/web/.env.example) file for the required environment variables.
 
 ## Author
 
