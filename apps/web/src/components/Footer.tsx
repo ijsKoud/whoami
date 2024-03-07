@@ -1,7 +1,7 @@
+import { Skeleton } from "@whoami/ui/skeleton";
+import { Code2Icon, GitForkIcon, HeartIcon, StarIcon } from "lucide-react";
 import Link from "next/link";
 import React, { Suspense } from "react";
-import { Code2Icon, GitForkIcon, HeartIcon, StarIcon } from "lucide-react";
-import { Skeleton } from "@whoami/ui/skeleton";
 
 const GitHubStats: React.FC = async () => {
 	const response = await fetch("https://api.github.com/repos/ijsKoud/website");

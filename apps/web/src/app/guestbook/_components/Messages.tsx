@@ -1,8 +1,8 @@
-import type React from "react";
 import { PrismaClient } from "@prisma/client";
+import Markdown from "@whoami/markdown";
 import { Avatar, AvatarFallback, AvatarImage } from "@whoami/ui/avatar";
 import { format } from "date-fns";
-import Markdown from "@whoami/markdown";
+import React from "react";
 
 const prisma = new PrismaClient();
 

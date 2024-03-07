@@ -1,9 +1,10 @@
-import React from "react";
-import ThemeToggle from "./ThemeToggle";
-import Link from "next/link";
 import { Button } from "@whoami/ui/button";
 import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@whoami/ui/sheet";
 import { SidebarIcon } from "lucide-react";
+import Link from "next/link";
+import React from "react";
+
+import ThemeToggle from "./ThemeToggle";
 
 const NAVIGATION_LINKS = [
 	{

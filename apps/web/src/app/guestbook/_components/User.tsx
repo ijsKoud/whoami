@@ -1,4 +1,4 @@
-import { LogoutLink, getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
+import { getKindeServerSession, LogoutLink } from "@kinde-oss/kinde-auth-nextjs/server";
 import { Avatar, AvatarFallback, AvatarImage } from "@whoami/ui/avatar";
 import { Button } from "@whoami/ui/button";
 import { LogOutIcon } from "lucide-react";

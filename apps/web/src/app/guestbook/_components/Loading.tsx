@@ -1,5 +1,5 @@
-import React from "react";
 import { Skeleton } from "@whoami/ui/skeleton";
+import React from "react";
 
 const Loading: React.FC = () => {
 	return (

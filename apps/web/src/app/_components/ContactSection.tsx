@@ -1,18 +1,19 @@
 "use client";
 
+import emailjs from "@emailjs/browser";
 import { zodResolver } from "@hookform/resolvers/zod";
-import React from "react";
-import { useForm } from "react-hook-form";
-import { z } from "zod";
+import { Button } from "@whoami/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@whoami/ui/card";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@whoami/ui/form";
 import { Input } from "@whoami/ui/input";
 import { Textarea } from "@whoami/ui/textarea";
-import { Button } from "@whoami/ui/button";
-import { SlideFade } from "@/components/animations/SlideFade";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@whoami/ui/card";
-import { Loader2Icon, SendHorizonalIcon } from "lucide-react";
 import { useToast } from "@whoami/ui/use-toast";
-import emailjs from "@emailjs/browser";
+import { Loader2Icon, SendHorizonalIcon } from "lucide-react";
+import React from "react";
+import { useForm } from "react-hook-form";
+import { z } from "zod";
+
+import { SlideFade } from "@/components/animations/SlideFade";
 
 const ContactSection: React.FC = () => {
 	const { toast } = useToast();

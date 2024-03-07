@@ -1,9 +1,9 @@
 "use client";
 
-import React, { useEffect } from "react";
-import { type HTMLMotionProps, motion, type Variants, type MotionProps, useAnimation } from "framer-motion";
-import { TRANSITION_EASINGS } from "@whoami/utils/constants";
 import { useIntersectionObserver } from "@uidotdev/usehooks";
+import { TRANSITION_EASINGS } from "@whoami/utils/constants";
+import { type HTMLMotionProps, motion, type MotionProps, useAnimation, type Variants } from "framer-motion";
+import React, { useEffect } from "react";
 
 export interface SlideFadeProps {
 	delay?: number;

@@ -1,7 +1,8 @@
-import { NextRequest, NextResponse } from "next/server";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { PrismaClient } from "@prisma/client";
-import { ZodError, z } from "zod";
+import type { NextRequest } from "next/server";
+import { NextResponse } from "next/server";
+import { z, ZodError } from "zod";
 
 const prisma = new PrismaClient();
 const schema = z.object({
