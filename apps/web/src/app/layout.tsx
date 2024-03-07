@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import React from "react";
 
@@ -12,7 +12,6 @@ import Providers from "./providers";
 const InterFont = Inter({ display: "swap", subsets: ["latin"], weight: ["300", "400", "500", "600", "700", "800", "900"] });
 
 export const metadata: Metadata = {
-	themeColor: "#50a0d4",
 	metadataBase: new URL("https://ijskoud.dev"),
 	title: { template: "Daan Klarenbeek - %s", default: "Daan Klarenbeek - Full-stack developer building apps for the internet" },
 	description: "Full-stack developer building apps for the internet",
@@ -22,6 +21,10 @@ export const metadata: Metadata = {
 		description: "Full-stack developer building apps for the internet",
 		images: [{ url: "/profile.png", alt: "Profile picture", type: "image/png" }]
 	}
+};
+
+export const viewport: Viewport = {
+	themeColor: "#50a0d4"
 };
 
 const RootLayout: React.FC<React.PropsWithChildren> = ({ children }) => {

@@ -7,7 +7,7 @@ const transpilePackages = readdirSync(join(process.cwd(), "..", "..", "packages"
 const config = {
 	reactStrictMode: true,
 	transpilePackages,
-	images: { domains: ["cdn.ijskoud.dev"] },
+	images: { remotePatterns: [{ protocol: "https", hostname: "cdn.ijskoud.dev", pathname: "/files/*" }] },
 	redirects: () => [
 		{
 			source: "/discord/banner",
