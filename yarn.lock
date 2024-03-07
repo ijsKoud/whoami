@@ -1377,10 +1377,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:8.53.0":
-  version: 8.53.0
-  resolution: "@eslint/js@npm:8.53.0"
-  checksum: d29f6c207b2f6dc4ef174d16a3c07b0d3a17ca3d805680496ff267edd773e3bac41db4e7dcab622ca1970d892535bd19671e2a756d4eac75e96fd8c8dcdb619b
+"@eslint/js@npm:8.54.0":
+  version: 8.54.0
+  resolution: "@eslint/js@npm:8.54.0"
+  checksum: d61fb4a0be6af2d8cb290121c329697664a75d6255a29926d5454fb02aeb02b87112f67fdf218d10abac42f90c570ac366126751baefc5405d0e017ed0c946c5
   languageName: node
   linkType: hard
 
@@ -1572,12 +1572,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:14.0.2":
-  version: 14.0.2
-  resolution: "@next/eslint-plugin-next@npm:14.0.2"
+"@next/eslint-plugin-next@npm:14.0.3":
+  version: 14.0.3
+  resolution: "@next/eslint-plugin-next@npm:14.0.3"
   dependencies:
     glob: "npm:7.1.7"
-  checksum: 94a06810d87bdb4e806ef77fb841c74334707e2b1c570aa740b473d4871ef61aa05acd6f6b8487948e4bbca121819e757f14a8ccf0b84914e55bdc84223ea9f7
+  checksum: 7ab9cb7a4dcaf97b66fc79aefa848ce0e46a43d48145484ffa0ce8629f3355e684ca4a52d1b2c1093a527a4f7ac31b57a2e429377c93770747046f41a1a73e1e
   languageName: node
   linkType: hard
 
@@ -1717,10 +1717,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines@npm:5.5.2":
-  version: 5.5.2
-  resolution: "@prisma/engines@npm:5.5.2"
-  checksum: 8f813c299980491e9ec20044d33246f850ebc1cb93ada17c833fc7182c70d4626e76c69b7256c79527bfe1c81ec0ba7f9f5d794fddde76d246b01fb815b55edf
+"@prisma/engines@npm:5.6.0":
+  version: 5.6.0
+  resolution: "@prisma/engines@npm:5.6.0"
+  checksum: 587cf254da9628ddfd21a8f519b841c5c7713f2e3208e65cae3ec0ef812a67a001bee4ffe19d8ba71a867419a3f8540b64d7998c63696b951270397732d08886
   languageName: node
   linkType: hard
 
@@ -2428,12 +2428,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.9.0":
-  version: 20.9.0
-  resolution: "@types/node@npm:20.9.0"
+"@types/node@npm:^20.9.2":
+  version: 20.9.2
+  resolution: "@types/node@npm:20.9.2"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 755d07de735eafda4e20af75ad9d03bdbfddef327d790e9a896142eac7493db5d8501591376e1c8227aa12eeb88e522bc727c6024504842ed40e539e8a466db9
+  checksum: 891a035a5b7796001f5daaec03b2d84ebb67d731b67abb34c352af1b5b1f53beb4a92f0f6a66f6e0ed97191c3022cc8c830e048f8a5c53806e8ab248873a7c7b
   languageName: node
   linkType: hard
 
@@ -2879,7 +2879,7 @@ __metadata:
   dependencies:
     "@types/react": "npm:^18.2.37"
     "@types/react-dom": "npm:^18.2.15"
-    eslint: "npm:^8.53.0"
+    eslint: "npm:^8.54.0"
     react: "npm:^18.2.0"
     react-dom: "npm:18.2.0"
     react-markdown: "npm:9.0.1"
@@ -2899,7 +2899,7 @@ __metadata:
     "@types/react": "npm:^18.2.37"
     "@types/react-dom": "npm:^18.2.15"
     "@whoami/utils": "npm:*"
-    eslint: "npm:^8.53.0"
+    eslint: "npm:^8.54.0"
     react: "npm:^18.2.0"
     react-dom: "npm:18.2.0"
     typescript: "npm:^5.2.2"
@@ -2910,7 +2910,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@whoami/utils@workspace:packages/utils"
   dependencies:
-    eslint: "npm:^8.53.0"
+    eslint: "npm:^8.54.0"
     typescript: "npm:^5.2.2"
   languageName: unknown
   linkType: soft
@@ -4102,11 +4102,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:^14.0.2":
-  version: 14.0.2
-  resolution: "eslint-config-next@npm:14.0.2"
+"eslint-config-next@npm:^14.0.3":
+  version: 14.0.3
+  resolution: "eslint-config-next@npm:14.0.3"
   dependencies:
-    "@next/eslint-plugin-next": "npm:14.0.2"
+    "@next/eslint-plugin-next": "npm:14.0.3"
     "@rushstack/eslint-patch": "npm:^1.3.3"
     "@typescript-eslint/parser": "npm:^5.4.2 || ^6.0.0"
     eslint-import-resolver-node: "npm:^0.3.6"
@@ -4121,7 +4121,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 6936087453f5ed329d3885a4f362a3ae9519dac8e06a4b1536f7c1fa43e13d7090ea5380762d912d94bc25f153a098a7d17a0d64fa8fc7618bf7ce26a9809caa
+  checksum: 398da0334b803da885de2d3fa53dd37c18aae0e5f62a38ad88bed5f2cc21cfa97ef75dfdfdc0009dc57e59d412554430d54052d2d555973c16df247f9be118d9
   languageName: node
   linkType: hard
 
@@ -4344,14 +4344,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.53.0, eslint@npm:^8.53.0":
-  version: 8.53.0
-  resolution: "eslint@npm:8.53.0"
+"eslint@npm:8.54.0, eslint@npm:^8.54.0":
+  version: 8.54.0
+  resolution: "eslint@npm:8.54.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@eslint-community/regexpp": "npm:^4.6.1"
     "@eslint/eslintrc": "npm:^2.1.3"
-    "@eslint/js": "npm:8.53.0"
+    "@eslint/js": "npm:8.54.0"
     "@humanwhocodes/config-array": "npm:^0.11.13"
     "@humanwhocodes/module-importer": "npm:^1.0.1"
     "@nodelib/fs.walk": "npm:^1.2.8"
@@ -4388,7 +4388,7 @@ __metadata:
     text-table: "npm:^0.2.0"
   bin:
     eslint: bin/eslint.js
-  checksum: c5cd0049488c0463dab7d97466767ca5a1d0b3b59d0a223122683dc8039ecea30b27867fb9e38906b4c1ab9d09ece8a802a6c540d8905016f1cc4b4bb27329af
+  checksum: 4f205f832bdbd0218cde374b067791f4f76d7abe8de86b2dc849c273899051126d912ebf71531ee49b8eeaa22cad77febdc8f2876698dc2a76e84a8cb976af22
   languageName: node
   linkType: hard
 
@@ -6972,14 +6972,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:^5.5.2":
-  version: 5.5.2
-  resolution: "prisma@npm:5.5.2"
+"prisma@npm:^5.6.0":
+  version: 5.6.0
+  resolution: "prisma@npm:5.6.0"
   dependencies:
-    "@prisma/engines": "npm:5.5.2"
+    "@prisma/engines": "npm:5.6.0"
   bin:
     prisma: build/index.js
-  checksum: 60a84b4f4877e45472e3dd375b7ada1e743effc1974470d0993c279afab1d612aba1f14c1144b1e4c1ad74a9dde2c5f7411ff395131619a2c70b017f32d65fac
+  checksum: 8d8069295cf7402f6eb103fa1d5c511c1006fc78057fa180e9b0688076703b33301ce6b04a30575d8b01f0bbe9a26b3c196d0bc4f9253eca9ee780e0800ce602
   languageName: node
   linkType: hard
 
@@ -8549,7 +8549,7 @@ __metadata:
     "@emailjs/browser": "npm:^4.1.0"
     "@kinde-oss/kinde-auth-nextjs": "npm:^2.1.15"
     "@prisma/client": "npm:5.10.2"
-    "@types/node": "npm:^20.9.0"
+    "@types/node": "npm:^20.9.2"
     "@types/react": "npm:^18.2.37"
     "@types/react-dom": "npm:^18.2.15"
     "@types/twemoji-parser": "npm:^13.1.4"
@@ -8559,13 +8559,13 @@ __metadata:
     "@whoami/utils": "npm:*"
     autoprefixer: "npm:^10.4.16"
     date-fns: "npm:^3.3.1"
-    eslint: "npm:8.53.0"
+    eslint: "npm:8.54.0"
     framer-motion: "npm:11.0.8"
     next: "npm:14.1.1"
     next-sitemap: "npm:^4.2.3"
     next-themes: "npm:^0.2.1"
     postcss: "npm:^8.4.31"
-    prisma: "npm:^5.5.2"
+    prisma: "npm:^5.6.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     tailwindcss: "npm:^3.3.5"
@@ -8653,13 +8653,13 @@ __metadata:
     "@sapphire/eslint-config": "npm:^5.0.2"
     "@sapphire/ts-config": "npm:^5.0.0"
     "@snowcrystals/prettier-config": "npm:^1.0.0"
-    "@types/node": "npm:^20.9.0"
+    "@types/node": "npm:^20.9.2"
     "@typescript-eslint/eslint-plugin": "npm:^7.0.1"
     "@typescript-eslint/parser": "npm:^7.0.1"
     class-variance-authority: "npm:^0.7.0"
     clsx: "npm:^2.1.0"
-    eslint: "npm:^8.53.0"
-    eslint-config-next: "npm:^14.0.2"
+    eslint: "npm:^8.54.0"
+    eslint-config-next: "npm:^14.0.3"
     eslint-config-prettier: "npm:^9.0.0"
     eslint-plugin-prettier: "npm:^5.0.1"
     husky: "npm:^9.0.6"
