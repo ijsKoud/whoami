@@ -13,6 +13,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
+
       - name: Install Node v18
         uses: actions/setup-node@v4
         with:
@@ -29,6 +34,11 @@ jobs:
   #     - name: Checkout repository
   #       uses: actions/checkout@v4
 
+  #     - name: Setup pnpm
+  #       uses: pnpm/action-setup@v3
+  #       with:
+  #         version: 8
+
   #     - name: Install Node v18
   #       uses: actions/setup-node@v4
   #       with:
@@ -43,12 +53,18 @@ jobs:
 
   #     - name: Run Compiler
   #       run: pnpm run build
+
   Linting:
     runs-on: ubuntu-latest
     needs: Dependencies
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
 
       - name: Install Node v18
         uses: actions/setup-node@v4
@@ -61,12 +77,18 @@ jobs:
 
       - name: Run Eslint
         run: pnpm run lint
+
   # Testing:
   #   runs-on: ubuntu-latest
   #   needs: Dependencies
   #   steps:
   #     - name: Checkout repository
   #       uses: actions/checkout@v3
+
+  #     - name: Setup pnpm
+  #       uses: pnpm/action-setup@v3
+  #       with:
+  #         version: 8
 
   #     - name: Install Node v18
   #       uses: actions/setup-node@v3
