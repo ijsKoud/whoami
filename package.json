@@ -13,7 +13,7 @@
 		"build": "turbo run build",
 		"start:dev": "turbo run dev --parallel",
 		"lint": "turbo run lint",
-		"postinstall": "is-ci || husky install"
+		"postinstall": "is-ci || husky"
 	},
 	"devDependencies": {
 		"@sapphire/eslint-config": "^5.0.2",
@@ -26,7 +26,7 @@
 		"eslint-config-next": "^14.0.3",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.0.1",
-		"husky": "^8.0.3",
+		"husky": "^9.0.6",
 		"is-ci": "^3.0.1",
 		"lint-staged": "^15.1.0",
 		"nodemon": "^3.0.1",
