@@ -1284,10 +1284,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emailjs/browser@npm:^3.12.1":
-  version: 3.12.1
-  resolution: "@emailjs/browser@npm:3.12.1"
-  checksum: 6e78715e5e0a43ee7fdbfcef9fd2b722a69a977e545b25c0ed94a61e3d01c99f72f1de4394970337365975d599d459af9be040e489091675a6d474e69996f746
+"@emailjs/browser@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "@emailjs/browser@npm:4.1.0"
+  checksum: 314ab62a8f2d8d6b428a0624c4034c7ddee70ed245d0ea843e69ec2db93c994cd138018d42648e32f8c961505e9b2f36d392a0325054faf734ebb416960edea0
   languageName: node
   linkType: hard
 
@@ -8546,7 +8546,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:apps/web"
   dependencies:
-    "@emailjs/browser": "npm:^3.12.1"
+    "@emailjs/browser": "npm:^4.1.0"
     "@kinde-oss/kinde-auth-nextjs": "npm:^2.1.15"
     "@prisma/client": "npm:5.10.2"
     "@types/node": "npm:^20.9.0"
