@@ -20,9 +20,11 @@ const IntroductionSection: React.FC = () => {
 						</h2>
 					</SlideFade>
 					<SlideFade delay={0.1}>
-						<h1 className="text-23 leading-[80%] w-fit max-lg:text-19 max-sm:text-13 max-[400px]:text-9 font-extrabold uppercase">
-							{LANDING_TEXT.name}
-						</h1>
+						<Link href="/games/about-me">
+							<h1 className="text-23 leading-[80%] w-fit max-lg:text-19 max-sm:text-13 max-[400px]:text-9 font-extrabold uppercase outline outline-transparent transition-all hocus:outline-blue-500">
+								{LANDING_TEXT.name}
+							</h1>
+						</Link>
 					</SlideFade>
 				</div>
 
