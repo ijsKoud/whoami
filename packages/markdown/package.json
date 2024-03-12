@@ -14,10 +14,10 @@
 		"react-markdown": "9.0.1"
 	},
 	"devDependencies": {
-		"@types/react": "^18.2.37",
-		"@types/react-dom": "^18.2.15",
-		"eslint": "^8.54.0",
+		"@types/react": "^18.2.64",
+		"@types/react-dom": "^18.2.21",
+		"eslint": "^8.57.0",
 		"react": "^18.2.0",
-		"typescript": "^5.2.2"
+		"typescript": "^5.4.2"
 	}
 }
