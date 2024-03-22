@@ -1,6 +1,7 @@
 import { Result } from "../base/Result";
 
 export class TextResult extends Result {
+	/** The text result */
 	public readonly text: string;
 
 	/** The location this text result came from */

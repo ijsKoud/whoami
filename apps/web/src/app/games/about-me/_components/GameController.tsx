@@ -1,8 +1,8 @@
 import type { Dispatch, FC, PropsWithChildren, SetStateAction } from "react";
 import { createContext, useContext, useMemo, useState } from "react";
 
-import type { GameReturnType } from "../_game-logic/base/Action";
-import { Game } from "../_game-logic/Game";
+import type { GameReturnType } from "@/lib/games/about-me/base/Action";
+import { Game } from "@/lib/games/about-me/Game";
 
 const GameControllerContext = createContext({
 	game: new Game(),
