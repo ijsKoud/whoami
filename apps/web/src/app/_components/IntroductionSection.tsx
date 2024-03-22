@@ -5,7 +5,7 @@ import Link from "next/link";
 import React from "react";
 import { parse } from "twemoji-parser";
 
-import { SlideFade } from "@/components/animations/SlideFade";
+import { SlideFade } from "@/components/animations/slide-fade";
 
 import { LANDING_BULLET_POINTS, LANDING_TEXT } from "./constants";
 

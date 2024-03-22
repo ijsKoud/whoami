@@ -13,7 +13,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
-import { SlideFade } from "@/components/animations/SlideFade";
+import { SlideFade } from "@/components/animations/slide-fade";
 
 const ContactSection: React.FC = () => {
 	const { toast } = useToast();
