@@ -5,7 +5,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
-		"build": "prisma generate && pnpm run sitemap && next build",
+		"build": "pnpm run sitemap && next build",
 		"start": "next start",
 		"lint": "next lint",
 		"sitemap": "next-sitemap --config next-sitemap.config.cjs"
