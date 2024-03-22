@@ -1,8 +1,9 @@
 import { getKindeServerSession, LogoutLink } from "@kinde-oss/kinde-auth-nextjs/server";
-import { Avatar, AvatarFallback, AvatarImage } from "@whoami/ui/avatar";
-import { Button } from "@whoami/ui/button";
 import { LogOutIcon } from "lucide-react";
 import React from "react";
+
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
 
 const User: React.FC = async () => {
 	const session = getKindeServerSession();

@@ -4,13 +4,13 @@
 	"rsc": true,
 	"style": "default",
 	"aliases": {
-		"utils": "@whoami/utils",
-		"components": "@whoami/ui"
+		"utils": "@/lib/utils",
+		"components": "@/components"
 	},
 	"tailwind": {
 		"baseColor": "zinc",
 		"config": "tailwind.config.cjs",
 		"css": "styles/global.css",
-		"cssVariables": false
+		"cssVariables": true
 	}
 }

@@ -1,11 +1,11 @@
-import Markdown from "@whoami/markdown";
-import { Button } from "@whoami/ui/button";
-import AnimatedArrowIcon from "@whoami/ui/icons/AnimatedArrow";
 import Link from "next/link";
 import React from "react";
 import { parse } from "twemoji-parser";
 
 import { SlideFade } from "@/components/animations/slide-fade";
+import Markdown from "@/components/markdown";
+import { Button } from "@/components/ui/button";
+import AnimatedArrowIcon from "@/components/ui/icons/animated-arrow";
 
 import { LANDING_BULLET_POINTS, LANDING_TEXT } from "./constants";
 

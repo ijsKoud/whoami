@@ -1,15 +1,16 @@
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Button } from "@whoami/ui/button";
-import { Form, FormControl, FormField, FormItem, FormMessage } from "@whoami/ui/form";
-import { Textarea } from "@whoami/ui/textarea";
-import { useToast } from "@whoami/ui/use-toast";
 import { Loader2Icon, SendHorizonalIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 import React from "react";
 import { useForm } from "react-hook-form";
+import { toast } from "sonner";
 import { z } from "zod";
+
+import { Button } from "@/components/ui/button";
+import { Form, FormControl, FormField, FormItem, FormMessage } from "@/components/ui/form";
+import { Textarea } from "@/components/ui/textarea";
 
 interface Props {
 	/** Whether the form is disabled or not */
@@ -18,7 +19,6 @@ interface Props {
 
 const InputForm: React.FC<Props> = ({ disabled }) => {
 	const router = useRouter();
-	const { toast } = useToast();
 	const formSchema = z.object({
 		message: z.string({ required_error: "A message is required" }).max(1024, "A message cannot be longer than 1024 characters.")
 	});
@@ -34,9 +34,7 @@ const InputForm: React.FC<Props> = ({ disabled }) => {
 				const json = await res.json();
 				console.error(`Error: ${JSON.stringify(json)}`);
 
-				toast({
-					variant: "destructive",
-					title: "Message not sent",
+				toast("Message not sent", {
 					description: `There was an error processing your request: ${json.message ?? "unkown error"}`
 				});
 				return;
@@ -45,9 +43,7 @@ const InputForm: React.FC<Props> = ({ disabled }) => {
 			router.refresh();
 		} catch (error) {
 			console.log(error);
-			toast({
-				variant: "destructive",
-				title: "Message not sent",
+			toast("Message not sent", {
 				description: "There was an error processing your request: unknown error"
 			});
 		}

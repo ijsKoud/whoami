@@ -1,11 +1,11 @@
-import React from "react";
+import React, { forwardRef } from "react";
 
 export interface ArrowProps {
 	/** The size of the arrow */
 	size: number;
 }
 
-const AnimatedArrowIcon = React.forwardRef<SVGSVGElement, ArrowProps>(({ size }, ref) => {
+const AnimatedArrowIcon = forwardRef<SVGSVGElement, ArrowProps>(({ size }, ref) => {
 	return (
 		<svg
 			ref={ref}
@@ -21,5 +21,6 @@ const AnimatedArrowIcon = React.forwardRef<SVGSVGElement, ArrowProps>(({ size },
 		</svg>
 	);
 });
+AnimatedArrowIcon.displayName = "AnimatedArrowIcon";
 
 export default AnimatedArrowIcon;

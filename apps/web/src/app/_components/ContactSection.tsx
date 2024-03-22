@@ -2,21 +2,20 @@
 
 import emailjs from "@emailjs/browser";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Button } from "@whoami/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@whoami/ui/card";
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@whoami/ui/form";
-import { Input } from "@whoami/ui/input";
-import { Textarea } from "@whoami/ui/textarea";
-import { useToast } from "@whoami/ui/use-toast";
 import { Loader2Icon, SendHorizonalIcon } from "lucide-react";
 import React from "react";
 import { useForm } from "react-hook-form";
+import { toast } from "sonner";
 import { z } from "zod";
 
 import { SlideFade } from "@/components/animations/slide-fade";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 
 const ContactSection: React.FC = () => {
-	const { toast } = useToast();
 	const formSchema = z.object({
 		name: z.string({ required_error: "Your name is required" }),
 		email: z.string({ required_error: "A valid email is required" }).email("Invalid email provided"),
@@ -38,12 +37,10 @@ const ContactSection: React.FC = () => {
 
 		try {
 			await emailjs.send(serviceId, templateId, values, publicKey);
-			toast({ title: "Message received", description: "I have received your message, I will contact you back as soon as possible!" });
+			toast("Message received", { description: "I have received your message, I will contact you back as soon as possible!" });
 			form.reset(undefined);
 		} catch (error) {
-			toast({
-				variant: "destructive",
-				title: "Message not received",
+			toast("Message not received", {
 				description: "There was a problem processing your request, please try again later."
 			});
 			console.error(error);

@@ -1,9 +1,9 @@
-import { Button } from "@whoami/ui/button";
-import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@whoami/ui/sheet";
 import { SidebarIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
+import { Button } from "@/components/ui/button";
+import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { NAVIGATION_LINKS } from "@/lib/constants";
 
 import ThemeToggle from "./theme-toggle";

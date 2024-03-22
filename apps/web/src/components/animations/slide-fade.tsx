@@ -1,9 +1,10 @@
 "use client";
 
 import { useIntersectionObserver } from "@uidotdev/usehooks";
-import { TRANSITION_EASINGS } from "@whoami/utils/constants";
 import { type HTMLMotionProps, motion, type MotionProps, useAnimation, type Variants } from "framer-motion";
 import React, { useEffect } from "react";
+
+import { TRANSITION_EASINGS } from "@/lib/constants";
 
 export interface BaseSlideFadeProps {
 	delay?: number;

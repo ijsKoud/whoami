@@ -1,8 +1,8 @@
-import { Skeleton } from "@whoami/ui/skeleton";
 import { Code2Icon, GitForkIcon, HeartIcon, StarIcon } from "lucide-react";
 import Link from "next/link";
 import React, { Suspense } from "react";
 
+import { Skeleton } from "@/components/ui/skeleton";
 import type { GitHubRepoData } from "@/lib/types";
 
 const GitHubStats: React.FC = async () => {

@@ -1,7 +1,7 @@
-import Markdown from "@whoami/markdown";
 import React from "react";
 
 import { SlideFade } from "@/components/animations/slide-fade";
+import Markdown from "@/components/markdown";
 
 import { ABOUT_ME_TEXT, EXPERIENCE_ICONS } from "./constants";
 

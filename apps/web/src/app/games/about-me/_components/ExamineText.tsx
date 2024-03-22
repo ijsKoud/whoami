@@ -1,8 +1,8 @@
-import { cn } from "@whoami/utils";
 import { cva } from "class-variance-authority";
 import React from "react";
 
 import TypeWriter from "@/components/typewriter";
+import { cn } from "@/lib/utils";
 
 import { UseGameController } from "./GameController";
 
