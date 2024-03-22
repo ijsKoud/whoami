@@ -4,22 +4,9 @@ import { SidebarIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
-import ThemeToggle from "./ThemeToggle";
+import { NAVIGATION_LINKS } from "@/lib/constants";
 
-const NAVIGATION_LINKS = [
-	{
-		name: "About",
-		href: "/#about"
-	},
-	{
-		name: "Projects",
-		href: "/#projects"
-	},
-	{
-		name: "Contact",
-		href: "/#contact"
-	}
-];
+import ThemeToggle from "./theme-toggle";
 
 const NavigationMenu: React.FC = () => {
 	return (

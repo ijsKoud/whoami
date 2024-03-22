@@ -8,6 +8,9 @@ import * as React from "react";
 const ThemeToggle: React.FC = () => {
 	const { setTheme, resolvedTheme } = useTheme();
 
+	/**
+	 * Toggle the theme between light and dark.
+	 */
 	function toggleTheme() {
 		const newTheme = resolvedTheme === "dark" ? "light" : "dark";
 		setTheme(newTheme);

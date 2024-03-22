@@ -5,15 +5,15 @@ import { TRANSITION_EASINGS } from "@whoami/utils/constants";
 import { type HTMLMotionProps, motion, type MotionProps, useAnimation, type Variants } from "framer-motion";
 import React, { useEffect } from "react";
 
-export interface SlideFadeProps {
+export interface BaseSlideFadeProps {
 	delay?: number;
 	duration?: number;
 	useInView?: boolean;
 }
 
-type Props = SlideFadeProps & Omit<HTMLMotionProps<"div">, keyof MotionProps>;
+type SlideFadeProps = BaseSlideFadeProps & Omit<HTMLMotionProps<"div">, keyof MotionProps>;
 
-export const SlideFade: React.FC<React.PropsWithChildren<Props>> = ({ children, ...props }) => {
+export const SlideFade: React.FC<React.PropsWithChildren<SlideFadeProps>> = ({ children, ...props }) => {
 	const { delay = 0, duration = 0.5, useInView: UseInViewBool = false, ...divProps } = props;
 	const [inViewRef, isInView] = useIntersectionObserver<HTMLDivElement>({ threshold: 0.5 });
 
