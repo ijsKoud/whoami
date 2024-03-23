@@ -10,7 +10,7 @@ import ThemeToggle from "./theme-toggle";
 
 const NavigationMenu: React.FC = () => {
 	return (
-		<header className="top-0 sticky border-b dark:border-zinc-800 border-zinc-200 h-16 dark:bg-dark/80 bg-white/80 z-10 backdrop-blur-sm grid place-items-center">
+		<header className="top-0 sticky border-b dark:border-muted h-16 bg-background z-10 backdrop-blur-sm grid place-items-center">
 			<nav className="flex items-center justify-between max-w-5xl w-full px-4">
 				<div className="flex items-center">
 					{/* MOBILE NAVIGATION MENU */}

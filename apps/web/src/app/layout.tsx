@@ -40,7 +40,7 @@ const RootLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
 				<meta name="msapplication-TileColor" content="#131313" />
 			</head>
 
-			<body className="dark:bg-dark bg-white" style={InterFont.style}>
+			<body className="bg-background" style={InterFont.style}>
 				<Providers>
 					<NavigationMenu />
 					<div className="max-w-5xl m-auto px-4 pt-2">{children}</div>

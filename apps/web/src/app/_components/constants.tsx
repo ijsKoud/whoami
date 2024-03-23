@@ -22,8 +22,8 @@ export const LANDING_BULLET_POINTS: Array<Record<"text" | "emoji", string>> = [
 
 export const ABOUT_ME_TEXT: string = [
 	`I'm a **${AGE} year-old** full stack developer who's been immersed in the world of coding since 2020. Being mostly self-taught, my passion for open-source projects runs deep. I'm always enthusiastic about learning new technologies and techniques, constantly seeking to broaden my skill set.`,
-	"📺 In my free time you might catch me game once in a while but more often I watch tech related content.",
-	"🎓 currently studying at **AUAS** (Amsterdam University of Applied Sciences) to become a **software engineer**."
+	":tv: In my free time you might catch me game once in a while but more often I watch tech related content.",
+	":mortar_board: currently studying at **AUAS** (Amsterdam University of Applied Sciences) to become a **software engineer**."
 ].join("\n\n");
 
 // FOR A LIST OF VALID ICONS: https://github.com/tandpfun/skill-icons#icons-list
