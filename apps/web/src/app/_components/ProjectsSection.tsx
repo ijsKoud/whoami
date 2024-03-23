@@ -1,9 +1,9 @@
-import { Button } from "@whoami/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-import { SlideFade } from "@/components/animations/SlideFade";
+import { SlideFade } from "@/components/animations/slide-fade";
+import { Button } from "@/components/ui/button";
 
 import { PROJECTS_LIST } from "./constants";
 

@@ -1,8 +1,8 @@
 "use client";
 
-import { Toaster } from "@whoami/ui/toaster";
 import { ThemeProvider } from "next-themes";
 import React from "react";
+import { Toaster } from "sonner";
 
 const Providers: React.FC<React.PropsWithChildren> = ({ children }) => {
 	return (

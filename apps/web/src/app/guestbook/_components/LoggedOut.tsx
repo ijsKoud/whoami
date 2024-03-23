@@ -1,8 +1,9 @@
 import { LoginLink } from "@kinde-oss/kinde-auth-nextjs/server";
-import { Avatar, AvatarFallback } from "@whoami/ui/avatar";
-import { Button } from "@whoami/ui/button";
 import { LogInIcon } from "lucide-react";
 import React from "react";
+
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
 
 const LoggedOut: React.FC = () => {
 	return (

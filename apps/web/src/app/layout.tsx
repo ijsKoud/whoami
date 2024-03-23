@@ -4,8 +4,8 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import React from "react";
 
-import Footer from "@/components/Footer";
-import NavigationMenu from "@/components/NavigationMenu";
+import Footer from "@/components/footer";
+import NavigationMenu from "@/components/navigation-menu";
 
 import Providers from "./providers";
 
@@ -39,7 +39,8 @@ const RootLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
 				<link rel="shortcut icon" href="/favicon.ico?v=2" />
 				<meta name="msapplication-TileColor" content="#131313" />
 			</head>
-			<body className="dark:bg-dark bg-white" style={InterFont.style}>
+
+			<body className="bg-background" style={InterFont.style}>
 				<Providers>
 					<NavigationMenu />
 					<div className="max-w-5xl m-auto px-4 pt-2">{children}</div>
