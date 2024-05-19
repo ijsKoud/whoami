@@ -72,14 +72,14 @@ importers:
         specifier: ^4.3.3
         version: 4.3.3
       '@hookform/resolvers':
-        specifier: ^3.3.4
-        version: 3.3.4(react-hook-form@7.51.4(react@18.3.1))
+        specifier: ^3.4.0
+        version: 3.4.0(react-hook-form@7.51.4(react@18.3.1))
       '@kinde-oss/kinde-auth-nextjs':
-        specifier: ^2.2.6
-        version: 2.2.6(@babel/core@7.24.0)(next@14.2.3(@babel/core@7.24.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^2.2.10
+        version: 2.2.10(@babel/core@7.24.0)(next@14.2.3(@babel/core@7.24.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@prisma/client':
-        specifier: 5.13.0
-        version: 5.13.0(prisma@5.13.0)
+        specifier: 5.14.0
+        version: 5.14.0(prisma@5.13.0)
       '@radix-ui/react-aspect-ratio':
         specifier: ^1.0.3
         version: 1.0.3(@types/react-dom@18.3.0)(@types/react@18.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -117,8 +117,8 @@ importers:
         specifier: ^3.6.0
         version: 3.6.0
       framer-motion:
-        specifier: 11.1.9
-        version: 11.1.9(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 11.2.4
+        version: 11.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
@@ -830,8 +830,8 @@ packages:
   '@floating-ui/utils@0.2.1':
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
 
-  '@hookform/resolvers@3.3.4':
-    resolution: {integrity: sha512-o5cgpGOuJYrd+iMKvkttOclgwRW86EsWJZZRC23prf0uU2i48Htq4PuT73AVb9ionFyZrwYEITuOFGF+BydEtQ==}
+  '@hookform/resolvers@3.4.0':
+    resolution: {integrity: sha512-+oAqK3okmoEDnvUkJ3N/mvNMeeMv5Apgy1jkoRmlaaAF4vBgcJs9tHvtXU7VE4DvPosvAUUkPOaNFunzt1dbgA==}
     peerDependencies:
       react-hook-form: ^7.0.0
 
@@ -868,15 +868,15 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@kinde-oss/kinde-auth-nextjs@2.2.6':
-    resolution: {integrity: sha512-F7DngwUDwc+3t1scKWEtTytewaDEfMnIz3rRwvu89ll5u/8KN9vbHWWMXX4FVgfle9Eqrx4JPblLNQtAK8dALQ==}
+  '@kinde-oss/kinde-auth-nextjs@2.2.10':
+    resolution: {integrity: sha512-tx0+0O6BtnD2yjos8rZLTAViJ0HMQb9xHvb8I9asU2l2bRA8JUlVKnsYjCOc8iWqYXwllJ9HFCXr1cD9eSkCzg==}
     peerDependencies:
       next: ^12.2.5 || ^13 || ^14
       react: ^18.1.0
       react-dom: ^18.1.0
 
-  '@kinde-oss/kinde-typescript-sdk@2.9.0':
-    resolution: {integrity: sha512-wCu9eRAyNWp5AVv5QWaY4wrdQiAR9tYkBnQXeYshmbTRRMr/sm57+Td09ZabXorE4sPk4uB2tXBlaczJvnakXA==}
+  '@kinde-oss/kinde-typescript-sdk@2.9.1':
+    resolution: {integrity: sha512-3BBFQ3/WgAgoWigfpK9ItUkpyleuHN14in+V44NLWi+zHwE1B8II/HR5CHhw+s6qR1wyJwQh4ddz2tUJwEXysg==}
 
   '@next/env@13.5.6':
     resolution: {integrity: sha512-Yac/bV5sBGkkEXmAX5FWPS9Mmo2rthrOPRQQNfycJPkjUAUclomCPH7QFVCDQ4Mp2k2K1SSM6m0zrxYrOwtFQw==}
@@ -961,8 +961,8 @@ packages:
     resolution: {integrity: sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@prisma/client@5.13.0':
-    resolution: {integrity: sha512-uYdfpPncbZ/syJyiYBwGZS8Gt1PTNoErNYMuqHDa2r30rNSFtgTA/LXsSk55R7pdRTMi5pHkeP9B14K6nHmwkg==}
+  '@prisma/client@5.14.0':
+    resolution: {integrity: sha512-akMSuyvLKeoU4LeyBAUdThP/uhVP3GuLygFE3MlYzaCb3/J8SfsYBE5PkaFuLuVpLyA6sFoW+16z/aPhNAESqg==}
     engines: {node: '>=16.13'}
     peerDependencies:
       prisma: '*'
@@ -2108,8 +2108,8 @@ packages:
   fraction.js@4.3.7:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
 
-  framer-motion@11.1.9:
-    resolution: {integrity: sha512-flECDIPV4QDNcOrDafVFiIazp8X01HFpzc01eDKJsdNH/wrATcYydJSH9JbPWMS8UD5lZlw+J1sK8LG2kICgqw==}
+  framer-motion@11.2.4:
+    resolution: {integrity: sha512-D+EXd0lspaZijv3BJhAcSsyGz+gnvoEdnf+QWkPZdhoFzbeX/2skrH9XSVFb0osgUnCajW8x1frjhLuKwa/Reg==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0
@@ -4344,7 +4344,7 @@ snapshots:
 
   '@floating-ui/utils@0.2.1': {}
 
-  '@hookform/resolvers@3.3.4(react-hook-form@7.51.4(react@18.3.1))':
+  '@hookform/resolvers@3.4.0(react-hook-form@7.51.4(react@18.3.1))':
     dependencies:
       react-hook-form: 7.51.4(react@18.3.1)
 
@@ -4386,10 +4386,10 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@kinde-oss/kinde-auth-nextjs@2.2.6(@babel/core@7.24.0)(next@14.2.3(@babel/core@7.24.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@kinde-oss/kinde-auth-nextjs@2.2.10(@babel/core@7.24.0)(next@14.2.3(@babel/core@7.24.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/preset-env': 7.24.0(@babel/core@7.24.0)
-      '@kinde-oss/kinde-typescript-sdk': 2.9.0
+      '@kinde-oss/kinde-typescript-sdk': 2.9.1
       cookie: 0.6.0
       crypto-js: 4.2.0
       jwt-decode: 3.1.2
@@ -4401,7 +4401,7 @@ snapshots:
       - '@babel/core'
       - supports-color
 
-  '@kinde-oss/kinde-typescript-sdk@2.9.0':
+  '@kinde-oss/kinde-typescript-sdk@2.9.1':
     dependencies:
       jose: 5.2.4
       uncrypto: 0.1.3
@@ -4458,7 +4458,7 @@ snapshots:
 
   '@pkgr/core@0.1.1': {}
 
-  '@prisma/client@5.13.0(prisma@5.13.0)':
+  '@prisma/client@5.14.0(prisma@5.13.0)':
     optionalDependencies:
       prisma: 5.13.0
 
@@ -5848,7 +5848,7 @@ snapshots:
 
   fraction.js@4.3.7: {}
 
-  framer-motion@11.1.9(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  framer-motion@11.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       tslib: 2.6.2
     optionalDependencies:
