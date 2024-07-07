@@ -19,9 +19,9 @@
 		"@sapphire/eslint-config": "^5.0.5",
 		"@sapphire/ts-config": "^5.0.1",
 		"@snowcrystals/prettier-config": "^1.0.0",
-		"@types/node": "^20.14.9",
-		"@typescript-eslint/eslint-plugin": "^7.14.1",
-		"@typescript-eslint/parser": "^7.14.1",
+		"@types/node": "^20.14.10",
+		"@typescript-eslint/eslint-plugin": "^7.15.0",
+		"@typescript-eslint/parser": "^7.15.0",
 		"eslint": "^8.57.0",
 		"eslint-config-next": "^14.2.4",
 		"eslint-config-prettier": "^9.1.0",
@@ -32,9 +32,9 @@
 		"nodemon": "^3.1.4",
 		"prettier": "^3.3.2",
 		"turbo": "^1.13.4",
-		"typescript": "5.5.2",
+		"typescript": "5.5.3",
 		"eslint-plugin-import": "^2.29.1",
-		"eslint-plugin-simple-import-sort": "^12.1.0"
+		"eslint-plugin-simple-import-sort": "^12.1.1"
 	},
 	"engines": {
 		"node": ">= v18.16.0"
