@@ -48,14 +48,14 @@
 	},
 	"devDependencies": {
 		"@types/lodash": "^4.17.7",
-		"@types/node": "^20.16.2",
+		"@types/node": "^20.16.5",
 		"@types/react": "^18.3.5",
 		"@types/react-dom": "^18.3.0",
 		"@types/twemoji-parser": "^13.1.4",
 		"autoprefixer": "^10.4.20",
 		"eslint": "8.57.0",
-		"postcss": "^8.4.42",
-		"prisma": "^5.19.0",
+		"postcss": "^8.4.45",
+		"prisma": "^5.19.1",
 		"tailwindcss": "^3.4.10",
 		"typescript": "^5.5.4"
 	}
